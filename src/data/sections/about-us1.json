@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "smallTitle": "About Us",
+  "title": "Our Comapny",
+  "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+  "image": "/img/feat.jpg",
+  "stauts": [
+    { "id": 1, "number": "3", "letter": "K", "stautsName": "Happy Clients" },
+    { "id": 2, "number": "14", "letter": "K", "stautsName": "Success Projects" }
+  ]
+}

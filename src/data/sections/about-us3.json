@@ -1,0 +1,15 @@
+{
+  "id": 1,
+  "image1": "/img/01.jpg",
+  "image2": "/img/02.jpg",
+  "exp": {
+    "nmb": 128,
+    "name": "Tamamlanan Proje"
+  },
+  "title": { "first": "Özgün ve Entegre ", "second": "Yazılım Hizmetleri." },
+  "content": {
+    "first": "RAsoft, özgün ve entegre yazılım çözümleri sunarak, hizmet verdiği markalara kreatif, etkili ve faydalı dijital iletişim ve yazılım hizmeti veren, bağımsız beyinlere ve bağımsız bir kimliğe sahip yeni nesil yazılım ajansıdır. ",
+    "second": ""
+  },
+  "smallTitle": "Hakkımızda"
+}
