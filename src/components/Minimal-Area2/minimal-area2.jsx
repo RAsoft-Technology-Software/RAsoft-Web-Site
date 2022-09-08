@@ -28,20 +28,15 @@ const MinimalArea2 = () => {
               <h4 className="color-font">Siz yalnızca hayat edin.</h4>
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  Our creative Ad agency is ranked among the finest in the US.
-                  We cultivate smart ideas for start-ups and seasoned players.
-                  By adhering to industry standards, we create some stunning
-                  portfolios. Company branding redefines.
+                  Başarıya odaklanmış bir ekip ve müşterilerine daima daha iyiyi
+                  sunmaya odaklanmış bir anlayışla dijital ihtiyaçlarınıza çözüm
+                  üretiyoruz. 
+                  <br></br>Bizi biz yapan ilkelerimizle müşterilerimiz için
+                  hazırladığımız projelerde titizlik, kalite ve özgünlük
+                  ilkelerinden asla taviz vermiyoruz.
                 </p>
               </Split>
-              <ul>
-                <li className="wow fadeInUp" data-wow-delay=".2s">
-                  We provide free initial consultation and support.
-                </li>
-                <li className="wow fadeInUp" data-wow-delay=".4s">
-                  We work with some of the most successful businesses.
-                </li>
-              </ul>
+             
               <Link href={`/about/about-dark`}>
                 <a
                   className="butn bord curve mt-40 wow fadeInUp"

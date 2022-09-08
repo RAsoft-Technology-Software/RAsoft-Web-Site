@@ -2,25 +2,37 @@
     {
         "id": 1,
         "icon": "pe-7s-paint-bucket",
-        "title": "Grafik Tasarım",
+        "title": "Kurumsal Kimlik Tasarımı",
         "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
     },
     {
         "id": 2,
         "icon": "pe-7s-phone",
-        "title": "Web & Mobil Tasarım",
+        "title": "Web & Mobil Uygulama Geliştirme",
         "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
     },
     {
         "id": 3,
-        "icon": "pe-7s-display1",
-        "title": "Social Medya Pazarlama",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
+        "icon": "pe-7s-diskette",
+        "title": "Web Tasarım",
+        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
     },
     {
         "id": 4,
+        "icon": "pe-7s-display1",
+        "title": "Sosyal Medya Yönetimi",
+        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
+    },
+    {
+        "id": 5,
         "icon": "pe-7s-diskette",
-        "title": "Document Legal Policy",
+        "title": "Google Reklam Yönetimi",
+        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+    },
+    {
+        "id": 6,
+        "icon": "pe-7s-diskette",
+        "title": "Microsoft Altyapı Çözümleri",
         "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
     }
 ]

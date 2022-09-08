@@ -16,7 +16,7 @@ const Services3 = () => {
                 Çalışma Alanlarımız
               </h6>
               <h3 className="wow color-font">
-               Size özel stratejilerle, özgün ve entegre çözümler üretiyoruz.
+                Size özel stratejilerle, özgün ve entegre çözümler üretiyoruz.
               </h3>
             </div>
           </div>
@@ -29,8 +29,8 @@ const Services3 = () => {
               </span>
               <h5>Web Uygulamaları Geliştirme</h5>
               <p>
-                Implementation and rollout of new network infrastructure,
-                including consolidation.
+                Web sitenizi kurumsal kimliğinize uygun, mobil ve SEO
+                kriterlerine uyumlu olarak özgün bir şekilde tasarlıyoruz.
               </p>
               <Link href="/about/about-dark">
                 <a className="more-stroke">
@@ -46,8 +46,8 @@ const Services3 = () => {
               </span>
               <h5>Mobil Uygulama Geliştirme</h5>
               <p>
-                Implementation and rollout of new network infrastructure,
-                including consolidation.
+                RAsoft olarak, konumdan bağımsız işlem yapabilme, ürün ve
+                hizmetlere 7/24 erişebilme özgürlüğü sağlıyoruz.
               </p>
               <Link href="/about/about-dark">
                 <a className="more-stroke">
@@ -63,8 +63,9 @@ const Services3 = () => {
               </span>
               <h5>Dijital Pazarlama</h5>
               <p>
-                Implementation and rollout of new network infrastructure,
-                including consolidation.
+                Markanızın itibarını yükseltecek, mesajını daha kaliteli bir
+                şekilde iletmesini sağlayacak marka kimliği tasarımı ile hemen
+                harekete geçin!
               </p>
               <Link href="/about/about-dark">
                 <a className="more-stroke">
@@ -80,8 +81,9 @@ const Services3 = () => {
               </span>
               <h5>Microsoft Çözümleri</h5>
               <p>
-                Implementation and rollout of new network infrastructure,
-                including consolidation.
+                Altyapılarınızı güçlendiriyor, doğru şekilde
+                yönetmenizi sağlıyor, güvenlik açıklarını kapatıyor ve
+                danışmanlık hizmetleri veriyoruz.
               </p>
               <Link href="/about/about-dark">
                 <a className="more-stroke">

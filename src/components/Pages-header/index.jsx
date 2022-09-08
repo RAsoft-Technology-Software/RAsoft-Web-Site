@@ -9,7 +9,7 @@ const PagesHeader = () => {
           <div className="col-lg-10">
             <div className="cont mt-100 mb-50 text-center">
               <h1 className="color-font fw-700">
-                Kendini işine adamış yaratıcı ekibimiz, yaptığımız işe yönelik yetenek, deneyim ve tutkuyla dolup taşıyor.
+                3 Kıta 7 Ülkede Veri Odaklı Dijital Çözümler.
                 {/*Our dedicated team of creatives is bursting with talent,
                 experience and passion for what we do.*/}
               </h1>
