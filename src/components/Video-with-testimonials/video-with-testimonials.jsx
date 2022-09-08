@@ -30,7 +30,7 @@ const VideoWithTestimonials = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="vid-area">
-                <span className="text">Watch Video</span>
+                <span className="text">Videoyu İzle</span>
                 <div className="vid-icon">
                   {typeof window !== "undefined" && (
                     <ModalVideo
@@ -60,10 +60,10 @@ const VideoWithTestimonials = () => {
               <div className="testim-box">
                 <div className="head-box">
                   <h6 className="wow fadeIn" data-wow-delay=".5s">
-                    Our Clients
+                    Müşterilerimiz
                   </h6>
                   <h4 className="wow fadeInLeft" data-wow-delay=".5s">
-                    What Client&apos;s Say?
+                    Müşterilerimiz Hakkımızda Ne Diyor? {/*What Client&apos;s Say?*/}
                   </h4>
                 </div>
                 <Slider

@@ -16,7 +16,7 @@ const Services = ({ style, lines }) => {
                 Best Features
               </h6>
               <h3 className="wow color-font">
-                We are a new digital product development agency
+                  Veri odaklı dijital çözümler…
               </h3>
             </div>
           </div>

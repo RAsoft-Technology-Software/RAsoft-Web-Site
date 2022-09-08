@@ -2,6 +2,9 @@
 import React from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
+import { ReactComponent as hearts } from  "../../../public/img/heart.svg"
+import { ReactComponent as coffee }  from  "../../../public/img/coffee.svg"
+//import coffee from  "../../../public/img/coffee.svg"
 
 const Footer = ({ hideBGCOLOR }) => {
   return (
@@ -11,28 +14,28 @@ const Footer = ({ hideBGCOLOR }) => {
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
-                <h5>Contact Us</h5>
+                <h5>Bize Ulaşın</h5>
               </div>
               <ul>
                 <li>
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
-                    <h6>Officeal Address</h6>
-                    <p>504 White St . Dawsonville, GA 30534 , New York</p>
+                    <h6>Adres</h6>
+                    <p>Tatlısu Mah. Şenol Güneş Bul. Şerifali No:2/A, Ümraniye, İSTANBUL</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
-                    <h6>Email Us</h6>
-                    <p>support@gmail.com</p>
+                    <h6>Email</h6>
+                    <p>bilgi@rasoft.com.tr</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
-                    <h6>Call Us</h6>
-                    <p>+87986451666</p>
+                    <h6>Telefon</h6>
+                    <p>+90 541 356 64 34</p>
                   </div>
                 </li>
               </ul>
@@ -41,7 +44,7 @@ const Footer = ({ hideBGCOLOR }) => {
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
-                <h5>Recent News</h5>
+                <h5>Blog{/*Recent News*/}</h5>
               </div>
               <ul>
                 <li>
@@ -121,8 +124,10 @@ const Footer = ({ hideBGCOLOR }) => {
                 </a>
               </div>
               <div className="copy-right">
+                {hearts}
+                <hearts/>
                 <p>
-                  © 2022, RAsoft. Made with lots of  and  in
+                  `© 2022, RAsoft. Made with lots of  {<hearts/>} and ${<coffee/>} in`
                   <Link
                     href="https://themeforest.net/user/themescamp/portfolio"
                     

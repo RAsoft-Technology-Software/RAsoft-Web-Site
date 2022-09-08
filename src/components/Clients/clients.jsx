@@ -15,10 +15,10 @@ const Clients = ({theme}) => {
               <h6 className="wow fadeIn" data-wow-delay=".5s">
                 Best Features
               </h6>
-              <h3 className="wow mb-20 color-font">Our Clients</h3>
+              <h3 className="wow mb-20 color-font">Müşterilerimiz</h3>
               <p>
-                Our area of practice is quite wide: design, graphics, branding,
-                development.
+                Uygulama alanımız oldukça geniştir: tasarım, grafik, markalaşma, geliştirme.{/*Our area of practice is quite wide: design, graphics, branding,
+                development.*/}
               </p>
             </div>
           </div>

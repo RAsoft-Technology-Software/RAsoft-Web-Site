@@ -20,13 +20,16 @@ const LoadingScreen = () => {
     <>
       <div className={`${appData.showLoading === true ? "showX" : "hideX"}`}>
         <div className="loading">
+          <span>Y</span>
+          <span>Ü</span>
+          <span>K</span>
           <span>L</span>
-          <span>o</span>
-          <span>a</span>
-          <span>d</span>
-          <span>i</span>
-          <span>n</span>
-          <span>g</span>
+          <span>E</span>
+          <span>N</span>
+          <span>İ</span>
+          <span>Y</span>
+          <span>O</span>
+          <span>R</span>
         </div>
         <div id="preloader"></div>
       </div>

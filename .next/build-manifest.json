@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/iletisim": [
+    "/hakkimizda": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/iletisim.js"
+      "static/chunks/pages/hakkimizda.js"
     ]
   },
   "ampFirstPages": []

@@ -46,7 +46,7 @@ const Navbar = ({ lr, nr, theme }) => {
           <ul className="navbar-nav ml-auto">
 
             <li className="nav-item">
-              <Link href={`/about/about-dark`}>
+              <Link href={`/hakkimizda`}>
                 <a className="nav-link">Hakkımızda</a>
               </Link>
             </li>
