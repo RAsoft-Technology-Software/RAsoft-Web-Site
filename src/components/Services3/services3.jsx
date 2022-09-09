@@ -22,6 +22,7 @@ const Services3 = () => {
           </div>
         </div>
         <div className="row">
+          
           <div className="col-lg-3 col-md-6 items md-mb30">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
@@ -32,13 +33,14 @@ const Services3 = () => {
                 Web sitenizi kurumsal kimliğinize uygun, mobil ve SEO
                 kriterlerine uyumlu olarak özgün bir şekilde tasarlıyoruz.
               </p>
-              <Link href="/about/about-dark">
+              <Link href="/web-uygulamalari-gelistirme">
                 <a className="more-stroke">
                   <span></span>
                 </a>
               </Link>
             </div>
           </div>
+
           <div className="col-lg-3 col-md-6 items active md-mb30">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
@@ -49,13 +51,14 @@ const Services3 = () => {
                 RAsoft olarak, konumdan bağımsız işlem yapabilme, ürün ve
                 hizmetlere 7/24 erişebilme özgürlüğü sağlıyoruz.
               </p>
-              <Link href="/about/about-dark">
+              <Link href="/mobil-uygulama-gelistirme">
                 <a className="more-stroke">
                   <span></span>
                 </a>
               </Link>
             </div>
           </div>
+
           <div className="col-lg-3 col-md-6 items sm-mb30">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
@@ -67,13 +70,14 @@ const Services3 = () => {
                 şekilde iletmesini sağlayacak marka kimliği tasarımı ile hemen
                 harekete geçin!
               </p>
-              <Link href="/about/about-dark">
+              <Link href="/dijital-pazarlama">
                 <a className="more-stroke">
                   <span></span>
                 </a>
               </Link>
             </div>
           </div>
+
           <div className="col-lg-3 col-md-6 items">
             <div className="item wow fadeIn" data-wow-delay=".3s">
               <span className="icon">
@@ -85,13 +89,14 @@ const Services3 = () => {
                 yönetmenizi sağlıyor, güvenlik açıklarını kapatıyor ve
                 danışmanlık hizmetleri veriyoruz.
               </p>
-              <Link href="/about/about-dark">
+              <Link href="/microsoft-cozumleri">
                 <a className="more-stroke">
                   <span></span>
                 </a>
               </Link>
             </div>
           </div>
+
         </div>
       </div>
     </section>

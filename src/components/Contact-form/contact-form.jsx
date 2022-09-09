@@ -112,17 +112,17 @@ const ContactForm = () => {
                 </h6>
               </div>
               <div className="social mt-50">
-                <a href="#0" className="icon">
+              <a href="https://wa.me/905413566434" className="icon">
+                  <i className="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.facebook.com/rasoft.sosyal/" className="icon">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-twitter"></i>
+                <a href="https://www.instagram.com/" className="icon">
+                  <i className="fab fa-instagram"></i>
                 </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-pinterest"></i>
-                </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-behance"></i>
+                <a href="https://www.linkedin.com/company/rasoft-sosyal/" className="icon">
+                  <i className="fab fa-linkedin"></i>
                 </a>
               </div>
             </div>

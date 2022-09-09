@@ -3,5 +3,5 @@
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
   "/404": "pages/404.js",
-  "/hakkimizda": "pages/hakkimizda.js"
+  "/blog-details-dark": "pages/blog-details-dark.js"
 }

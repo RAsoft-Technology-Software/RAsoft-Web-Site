@@ -117,17 +117,17 @@ const Footer = ({ hideBGCOLOR }) => {
                 <img src={appData.lightLogo} alt="" />
               </div>
               <div className="social">
-                <a href="#0">
+                <a href="https://wa.me/905413566434" className="icon">
+                  <i className="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.facebook.com/rasoft.sosyal/" className="icon">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#0">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#0">
+                <a href="https://www.instagram.com/" className="icon">
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="#0">
-                  <i className="fab fa-youtube"></i>
+                <a href="https://www.linkedin.com/company/rasoft-sosyal/" className="icon">
+                  <i className="fab fa-linkedin"></i>
                 </a>
               </div>
               <div className="copy-right">

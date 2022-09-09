@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 
-const BlogStanderd = ({ blogs }) => {
+const BlogStanderd = ({ blogs }) => { //TODO linkler
   return (
     <section className="blog-pg section-padding pt-0">
       <div className="container">
@@ -46,7 +46,7 @@ const BlogStanderd = ({ blogs }) => {
                         </h4>
                         <p>{blogItem.content}</p>
                         <Link href={`/blog-details/blog-details-dark`}>
-                          <a className="butn bord curve mt-30">Read More</a>
+                          <a className="butn bord curve mt-30">Devamı..{/*Read More*/}</a>
                         </Link>
                       </div>
                     </div>

@@ -6,7 +6,7 @@ import BlogStanderd from "../components/Blog-standerd/blog-standerd";
 import PageHeader from "../components/Page-header/page-header";
 import Footer from "../components/Footer/footer";
 
-const BlogDark = () => {
+const BlogDark = () => {  //TODO linkler sıkıntılı
     const navbarRef = React.useRef(null);
     const logoRef = React.useRef(null);
     React.useEffect(() => {
@@ -35,7 +35,7 @@ const BlogDark = () => {
       </div>
       <Navbar nr={navbarRef} lr={logoRef} />
       <PageHeader
-        title="Our News."
+        title="Bizden.."  //"Our News."   //TODO başlıklar
         paragraph="All the most current news and events of our creative team."
       />
       <BlogStanderd blogs={blog1Data} />
