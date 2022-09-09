@@ -20,21 +20,21 @@ const ContactForm = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="form md-mb50">
-              <h4 className="fw-700 color-font mb-50">İletişime Geçin.</h4>
+              <h4 className="fw-700 color-font mb-50">İletişime Geçin.</h4> 
               <Formik
                 initialValues={{
                   name: "",
                   email: "",
                   message: "",
                 }}
-                onSubmit={async (values) => {
+                onSubmit={async (values) => { //TODO mesajı RAsoft gmaile bağla
                   await sendMessage(500);
                   alert(JSON.stringify(values, null, 2));
                   // show message
 
                   messageRef.current.innerText =
-                    "Your Message has been successfully sent. I will contact you soon.";
-                  // Reset the values
+                    "Mesajınız başarıyla gönderildi. Yakında sizinle iletişime geçeceğim.";
+                  // Reset the values 
                   values.name = "";
                   values.email = "";
                   values.message = "";

@@ -1,19 +1,19 @@
 [
     {
         "id": 1,
-        "icon": "pe-7s-paint-bucket",
+        "icon": "fa-sharp fa-solid fa-pen",
         "title": "Kurumsal Kimlik Tasarımı",
         "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
     },
     {
         "id": 2,
-        "icon": "pe-7s-phone",
+        "icon": "fa fa-car",
         "title": "Web & Mobil Uygulama Geliştirme",
         "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
     },
     {
         "id": 3,
-        "icon": "pe-7s-diskette",
+        "icon": "fas fa-long-arrow-alt-right",
         "title": "Web Tasarım",
         "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
     },
