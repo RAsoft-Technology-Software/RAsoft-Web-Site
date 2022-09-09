@@ -2,11 +2,18 @@
 import React from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
-import { ReactComponent as hearts } from  "../../../public/img/heart.svg"
-import { ReactComponent as coffee }  from  "../../../public/img/coffee.svg"
-//import coffee from  "../../../public/img/coffee.svg"
+import { useState } from "react";
 
 const Footer = ({ hideBGCOLOR }) => {
+  const [mail, setMail] = useState('');
+
+  const aboneOl = (e) => {
+    e.preventDefault()
+
+    console.log("abone olduk ", mail)
+    //alert("Abone oldunuz!");
+  }
+
   return (
     <footer className={`${!hideBGCOLOR ? "sub-bg" : ""}`}>
       <div className="container">
@@ -97,8 +104,8 @@ const Footer = ({ hideBGCOLOR }) => {
                 </li>
                 <li>
                   <div className="subscribe">
-                    <input type="text" placeholder="Type Your Email" />
-                    <span className="subs pe-7s-paper-plane"></span>
+                    <input type="text" id="email" name="email" onChange={e => setMail(e.target.value)} placeholder="Emailinizi Giriniz" />
+                    <button className="subs pe-7s-paper-plane" onClick={aboneOl}></button>
                   </div>
                 </li>
               </ul>
@@ -124,15 +131,16 @@ const Footer = ({ hideBGCOLOR }) => {
                 </a>
               </div>
               <div className="copy-right">
-                {hearts}
-                <hearts/>
-                <p>
-                  `© 2022, RAsoft. Made with lots of  {<hearts/>} and ${<coffee/>} in`
+                  <p>
+                  © 2022, RAsoft. Made with lots of&nbsp;
+                  <img draggable="false" role="img" className="emoji" alt="❤" src="https://s.w.org/images/core/emoji/14.0.0/svg/2764.svg"/>
+                    &nbsp;and&nbsp;
+                  <img draggable="false" role="img" className="emoji" alt="☕" src="https://s.w.org/images/core/emoji/14.0.0/svg/2615.svg"/>
+                    &nbsp;in&nbsp;
                   <Link
-                    href="https://themeforest.net/user/themescamp/portfolio"
-                    
+                    href="https://goo.gl/maps/gtXGgojg7591dFfy6"
                   >
-                    <a target="_blank"> Istanbul</a>
+                    <a target="_blank">Istanbul, TURKEY</a>
                   </Link>
                   .
                 </p>
