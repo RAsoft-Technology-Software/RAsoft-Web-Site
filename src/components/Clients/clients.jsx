@@ -13,9 +13,9 @@ const Clients = ({theme}) => {
           <div className="col-lg-4 valign md-mb50">
             <div className="sec-head mb-0">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Best Features
+                Dijital Dönüşümünde 
               </h6>
-              <h3 className="wow mb-20 color-font">Müşterilerimiz</h3>
+              <h3 className="wow mb-20 color-font">RAsoft'u Tercih Edenler</h3>
               <p>
                 Uygulama alanımız oldukça geniştir: tasarım, grafik, markalaşma, geliştirme.{/*Our area of practice is quite wide: design, graphics, branding,
                 development.*/}
