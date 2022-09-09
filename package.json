@@ -1,8 +1,8 @@
 {
-  "name": "vie-react",
+  "name": "RAsoft Teknoloji, Yazılım ve Danışmanlık Hizmetleri",
   "private": true,
   "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "next dev",
     "build": "next build",
     "export": "next build && next export",
     "start": "next start",

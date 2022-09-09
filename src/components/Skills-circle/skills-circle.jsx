@@ -23,7 +23,7 @@ const SkillsCircle = ({ from, theme }) => {
       }`}
     >
       <div className="container">
-        <div className="row">
+        {/*<div className="row">
           <div className="col-lg-7">
             <div className="">
               <div className="row">
@@ -62,7 +62,7 @@ const SkillsCircle = ({ from, theme }) => {
               </div>
             </div>
           </div>
-        </div>
+    </div>*/}
       </div>
     </section>
   );
