@@ -64,6 +64,7 @@ const ContactForm = () => {
                           type="email"
                           name="email"
                           placeholder="Email"
+                          required="required"
                         />
                         {errors.email && touched.email && (
                           <div>{errors.email}</div>

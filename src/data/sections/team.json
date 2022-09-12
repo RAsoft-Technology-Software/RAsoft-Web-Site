@@ -3,27 +3,28 @@
     {
       "id": 1,
       "image": "/img/team/1.jpg",
-      "title": "Stephanie Lawrence",
+      "title": "Ramazan Ertunç",
       "sub": "CEO, Colabrio Media"
     },
     {
       "id": 2,
-      "image": "/img/team/2.jpg",
-      "title": "Alex Regelman",
+      "image": "/img/team/4.jpg",
+      "title": "Stephanie Lawrence",
       "sub": "CEO, Colabrio Media"
     },
     {
       "id": 3,
       "image": "/img/team/3.jpg",
-      "title": "Stacey Stamper",
+      "title": "Yusuf Özden",
       "sub": "CEO, Colabrio Media"
     },
     {
       "id": 4,
-      "image": "/img/team/4.jpg",
-      "title": "Stephanie Lawrence",
+      "image": "/img/team/2.jpg",
+      "title": "Necip Yolcu",
       "sub": "CEO, Colabrio Media"
     }
+    
   ],
   "skills": [
     {

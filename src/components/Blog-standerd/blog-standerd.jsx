@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 
-const BlogStanderd = ({ blogs }) => { //TODO linkler
+const BlogStanderd = ({ blogs }) => {
   return (
     <section className="blog-pg section-padding pt-0">
       <div className="container">

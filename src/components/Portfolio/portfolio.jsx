@@ -16,7 +16,7 @@ const Portfolio = ({ grid, filterPosition }) => {
           <div className="col-lg-8 col-md-10">
             <div className="sec-head text-center">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Projelerimiz
+                Portfolio
               </h6>
               <h3 className="wow color-font">
                 Our Recent Web Design &amp; <br /> Some Past Projects.

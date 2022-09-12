@@ -44,7 +44,7 @@ const Homepage5 = () => {
       <Team />
       <Blogs4 />
       <CallToAction />
-      <Footer />
+      <Footer /> 
     </DarkTheme>
   );
 };

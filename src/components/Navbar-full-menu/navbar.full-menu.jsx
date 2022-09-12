@@ -168,7 +168,7 @@ const NavbarFullMenu = ({ theme }) => {
                 </div>
                 <div className="item">
                   <h6>Adres :</h6>
-                  <a href="https://goo.gl/maps/YzMgKT2ZMz7fNF7AA" target="_blank">
+                  <a href="https://goo.gl/maps/ifFkUfUokGgViwqQ9" target="_blank">
                     Tatlısu Mah. Şenol Güneş Bul. Şerifali No:2/A Ümraniye - İSTANBUL</a>
                 </div>
                 <div className="item">

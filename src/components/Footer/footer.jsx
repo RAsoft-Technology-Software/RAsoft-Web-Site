@@ -138,7 +138,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <img draggable="false" role="img" className="emoji" alt="☕" src="https://s.w.org/images/core/emoji/14.0.0/svg/2615.svg"/>
                     &nbsp;in&nbsp;
                   <Link
-                    href="https://goo.gl/maps/gtXGgojg7591dFfy6"
+                    href="https://goo.gl/maps/ifFkUfUokGgViwqQ9"
                   >
                     <a target="_blank">Istanbul, TURKEY</a>
                   </Link>

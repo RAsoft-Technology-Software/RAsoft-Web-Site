@@ -7,7 +7,7 @@ const ProjectGallery = () => {
       <div className="popup-img">
         <div className="row">
           <a href="#" className="col-md-3 popimg">
-            <img alt="" src="/img/portfolio/full/web.png" />
+            <img alt="" src="/img/portfolio/project2/1.jpg" />
           </a>
           <a href="#" className="col-md-3 popimg">
             <img alt="" src="/img/portfolio/project2/2.jpg" />

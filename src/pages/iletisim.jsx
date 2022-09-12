@@ -40,7 +40,7 @@ const İletisim = () => {
         <ContactForm />
         <div className="map" id="ieatmaps">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12044.937488922546!2d29.1314023!3d40.9982431!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x76fee8f6808ea727!2sMira%20Tower!5e0!3m2!1str!2str!4v1659889303252!5m2!1str!2str"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.247319804943!2d29.129232515301826!3d40.99795967930184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac918b48d06b3%3A0x272e277a589881c5!2zUkFzb2Z0IC0gR2VsZWNlxJ9lIE9kYWtsxLEgRGlqaXRhbCDDh8O2esO8bWxlci4!5e0!3m2!1str!2str!4v1662911767149!5m2!1str!2str"
             loading="lazy"
           ></iframe>
         </div>

@@ -37,7 +37,7 @@ const MinimalArea2 = () => {
                 </p>
               </Split>
              
-              <Link href={`/about/about-dark`}>
+              <Link href={`/iletisim`}>
                 <a
                   className="butn bord curve mt-40 wow fadeInUp"
                   data-wow-delay=".8s"
