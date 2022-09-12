@@ -2,5 +2,9 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/": "pages/index.js"
+  "/mobil-uygulama-gelistirme": "pages/mobil-uygulama-gelistirme.js",
+  "/e-ticaret-entegrasyon-sistemleri": "pages/e-ticaret-entegrasyon-sistemleri.js",
+  "/dijital-pazarlama": "pages/dijital-pazarlama.js",
+  "/microsoft-cozumleri": "pages/microsoft-cozumleri.js",
+  "/powerbi-powerapps": "pages/powerbi-powerapps.js"
 }
