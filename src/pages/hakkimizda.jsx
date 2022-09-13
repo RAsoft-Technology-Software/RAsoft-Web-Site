@@ -11,6 +11,7 @@ import AboutIntro from "../components/About-intro/index";
 import DarkTheme from "../layouts/Dark";
 import Team from "../components/Team/team";
 import MinimalArea from "../components/Minimal-Area/minimal-area";
+import Numbers from "../components/Numbers/numbers";
 
 const About = () => {
   const navbarRef = React.useRef(null);
@@ -39,9 +40,10 @@ const About = () => {
       <AboutIntro />
       <Services style="4item" />
       <VideoWithTestimonials />
-     <SkillsCircle from="aboutPage" />
+      <SkillsCircle from="aboutPage" />
       <Team />
-     { /*<MinimalArea />*/}
+      <Numbers />
+      {/*<MinimalArea />*/}
       <Clients theme="dark" />
       <CallToAction />
       <Footer />

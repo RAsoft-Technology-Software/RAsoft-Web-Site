@@ -20,6 +20,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
+    "/404": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/404.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -35,45 +40,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/blog.js"
     ],
-    "/dijital-pazarlama": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/dijital-pazarlama.js"
-    ],
-    "/e-ticaret-entegrasyon-sistemleri": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/e-ticaret-entegrasyon-sistemleri.js"
-    ],
-    "/hakkimizda": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/hakkimizda.js"
-    ],
-    "/iletisim": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/iletisim.js"
-    ],
-    "/microsoft-cozumleri": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/microsoft-cozumleri.js"
-    ],
-    "/mobil-uygulama-gelistirme": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/mobil-uygulama-gelistirme.js"
-    ],
     "/powerbi-powerapps": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/powerbi-powerapps.js"
-    ],
-    "/projelerimiz": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/projelerimiz.js"
     ],
     "/web-uygulamalari-gelistirme": [
       "static/chunks/webpack.js",

@@ -1,0 +1,75 @@
+{
+  "id": 1,
+  "title": { "small": "", "big": "E-Ticaret Entegrasyon Sistemleri" },
+  "clientURLLink": "#",
+  "projectHeaderImage": "/img/portfolio/project2/eticaret/bg-demo.jpeg",
+  "videoLink": "https://vimeo.com/127203262",
+  "clientURLName": "Envato.com",
+  "date": "6 August 2022",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Web Design",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "name": "WordPress",
+      "link": "#"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Minimal",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "name": "Modern",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "name": "Design",
+      "link": "#"
+    }
+  ],
+  "intro": {
+    "content": "E-ticaret entegrasyonu, günümüzde her geçen gün biraz daha popüler hale gelen e-ticaretin olmazsa olmazlarından biridir. Entegrasyon sayesinde bu süreçteki birçok işlem çok daha kolay ve etkili bir şekilde yapılabilir.",
+    "content2": "İnternetin gelişmesi ve yaygınlaşması ile birlikte yaşamın birçok alanı bahsedilen durumdan etkilenmiştir. Etkilenen alanlardan birisi de ticaret olmuştur. İnternet ile birlikte ortaya çıkan e-ticaret, insanların alışveriş alışkanlıklarını değiştirmiştir. Ülkemizde ve dünyada payı, her geçen gün biraz daha artmaktadır. E-ticaret ile birlikte hayatımıza pazaryeri kavramı da girmiştir.",
+    "content3": "Pazaryeri; satıcılar ile alıcıların bir araya geldikleri ortamlardır. Bu ortamlarda alıcılar, satışta olan ürünlere kolay şekilde ulaşabilir ve beğendikleri ürünler için sipariş oluşturabilir.",
+    "content4": "Pazaryerleri, dünyada ve ülkemizde e-ticaretin en yoğun yaşandığı alanlardandır. Ülkemizde popüler olan pazaryerlerinden öne çıkanlar; N11, HepsiBurada, Amazon ve Gittigidiyor şeklinde ifade edilebilir.",
+    "content5": "E-ticaret, elektronik ticaret kavramının kısaltılmış halidir ve dijital (sanal) ortamda yapılan ticaret anlamına gelir. Burada satışa konulan mal ve hizmetlerin tanıtımları bir web sitesi üzerinden yapılır. Alıcılar internet üzerindeki görsellere ve bilgilere göre istedikleri ürünleri alabilirler. Ödemeler, pazarlama, tanıtım ve benzeri hususların tamamı internet üzerinden yapılır..",
+    "spmList": [
+      {
+        "id": 1,
+        "name": "Aenean sollicitudin"
+      },
+      {
+        "id": 2,
+        "name": "lorem quis bibendum auctor"
+      },
+      {
+        "id": 31,
+        "name": "nisi elit conseq uat ipsum"
+      },
+      {
+        "id": 4,
+        "name": "nec sagittis sem nibh id elit"
+      }
+    ]
+  },
+  "gallery": [
+    "/img/portfolio/project2/eticaret/1.jpg",
+    "/img/portfolio/project2/eticaret/2.jpg",
+    "/img/portfolio/project2/eticaret/3.jpg",
+    "/img/portfolio/project2/eticaret/5.jpg",
+    "/img/portfolio/project2/eticaret/7.jpg"
+  ],
+  "description": {
+    "content": "lorem ipsum dolor sit amet",
+    "content2": "lorem ipsum dolor sit amet"
+  }
+ 
+}

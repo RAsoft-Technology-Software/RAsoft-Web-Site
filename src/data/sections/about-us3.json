@@ -1,7 +1,7 @@
 {
   "id": 1,
-  "image1": "/img/01.jpg",
-  "image2": "/img/02.jpg",
+  "image1": "/img/01-demo.jpg",
+  "image2": "/img/02-demo.jpg",
   "exp": {
     "nmb": 128,
     "name": "Tamamlanan Proje"

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "icon": "fa-solid fa-code",
+        "title": "Yüksek Kalite",
+        "content": "Akılda kalıcı ve kullanıcıyı etkileyecek bir görsellik ortaya koyuyoruz,"
+    },
+    {
+        "id": 2,
+        "icon": "fa-solid fa-mug-saucer",
+        "title": "Hızlı",
+        "content": "Kullanıcıların en çok dikkat ettiği konu olan sayfa yüklenme hızında harikalar yaratıyoruz,"
+    },
+    {
+        "id": 3,
+        "icon": "fa-solid fa-life-ring",
+        "title": "Özgün",
+        "content": "Markanızın mesajını net bir şekilde aktarıyor ve sadeliği ön planda çıkarmaya özen gösteriyoruz,"
+    },
+    {
+        "id": 4,
+        "icon": "fa-solid fa-arrows-rotate",
+        "title": "Responsive",
+        "content": "Kullanıcı deneyimini iyileştirecek çözümleri ön plana çıkarırken Responsive Tasarım özelliğini de sizlere sunuyoruz,"
+    },
+    {
+        "id": 5,
+        "icon": "fa-solid fa-users-gear",
+        "title": "Garanti ve Destek",
+        "content": "Sizlerden gelecek özel taleplere göre şekillendirdiğimiz web tasarımı kusursuz bir şekilde sizlere teslim ediyoruz!"
+    }
+]

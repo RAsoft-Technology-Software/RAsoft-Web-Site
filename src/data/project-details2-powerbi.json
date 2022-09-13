@@ -1,0 +1,73 @@
+{
+  "id": 1,
+  "title": { "small": "", "big": "PowerBI & PowerApps" },
+  "clientURLLink": "#",
+  "projectHeaderImage": "/img/portfolio/project2/powerbi/bg-demo.jpg",
+  "videoLink": "https://vimeo.com/127203262",
+  "clientURLName": "Envato.com",
+  "date": "6 August 2022",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Web Design",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "name": "WordPress",
+      "link": "#"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Minimal",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "name": "Modern",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "name": "Design",
+      "link": "#"
+    }
+  ],
+  "intro": {
+    "content": "Şirketinizin dijital dönüşümünü gerçekleştirirken sektörünüze özel uygulamalar geliştirmeye yönelik çözümler sağlayan Power Apps ile manuel iş akışlarınızı otomatikleştirebilirsiniz.",
+    "content2": "power bi & power apps",
+    "content3": "power bi & power apps",
+    "spmList": [
+      {
+        "id": 1,
+        "name": "Aenean sollicitudin"
+      },
+      {
+        "id": 2,
+        "name": "lorem quis bibendum auctor"
+      },
+      {
+        "id": 31,
+        "name": "nisi elit conseq uat ipsum"
+      },
+      {
+        "id": 4,
+        "name": "nec sagittis sem nibh id elit"
+      }
+    ]
+  },
+  "gallery": [
+    "/img/portfolio/project2/powerbi/1.jpg",
+    "/img/portfolio/project2/powerbi/2.jpg",
+    "/img/portfolio/project2/powerbi/3.jpg",
+    "/img/portfolio/project2/powerbi/5.jpg",
+    "/img/portfolio/project2/powerbi/7.jpg"
+  ],
+  "description": {
+    "content": "lorem ipsum dolor sit amet",
+    "content2": "lorem ipsum dolor sit amet"
+  }
+ 
+}

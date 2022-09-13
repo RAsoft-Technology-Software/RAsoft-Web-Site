@@ -88,34 +88,48 @@ const Blogs4 = () => {
                   className="swiper-wrapper swiper-container swiper-img"
                   slidesPerView={1}
                 >
-                  <SwiperSlide className="swiper-slide">
+                  <SwiperSlide className="swiper-slide" /* TODO örnek blog foto */>
                     <div className="item wow fadeIn" data-wow-delay=".3s">
                       <div className="img">
                         <img
                           className="thumparallax"
-                          src="/img/blog/1.jpg"
+                          src="/img/blog/1-demo.jpg"
                           alt=""
                         />
                       </div>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
+
+                  <SwiperSlide className="swiper-slide" /* TODO örnek blog foto */>
                     <div className="item wow fadeIn" data-wow-delay=".3s">
                       <div className="img">
                         <img
                           className="thumparallax"
-                          src="/img/blog/2.jpg"
+                          src="/img/blog/2-demo.jpg"
                           alt=""
                         />
                       </div>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
+
+                  <SwiperSlide className="swiper-slide" /* TODO örnek blog foto */>
                     <div className="item wow fadeIn" data-wow-delay=".3s">
                       <div className="img">
                         <img
                           className="thumparallax"
-                          src="/img/blog/3.jpg"
+                          src="/img/blog/3-demo.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </SwiperSlide>
+
+                  <SwiperSlide className="swiper-slide" /* TODO örnek blog foto */>
+                    <div className="item wow fadeIn" data-wow-delay=".3s">
+                      <div className="img">
+                        <img
+                          className="thumparallax"
+                          src="/img/blog/3-demo.jpg"
                           alt=""
                         />
                       </div>
@@ -172,7 +186,7 @@ const Blogs4 = () => {
                   className="swiper-wrapper swiper-container swiper-content"
                   slidesPerView={1}
                 >
-                  <SwiperSlide className="swiper-slide">
+                  <SwiperSlide className="swiper-slide" /* TODO örnek blog başlık giriş ve link */>
                     <div className="item wow fadeIn" data-wow-delay=".6s">
                       <div className="content">
                         <div className="tags">
@@ -190,26 +204,25 @@ const Blogs4 = () => {
                         <div className="title">
                           <h4>
                             <Link href="/blog-details/blog-details-dark">
-                              Create The Lifestyle You Really Desire This World
+                                Dijital Pazarlama Nedir?
                             </Link>
                           </h4>
                         </div>
                         <div className="text">
                           <p>
-                            Success is no accident. It is hard work,
-                            perseverance, learning, studying, sacrifice and most
-                            of all, love of what you are doing.
+                            Dijital pazarlama, geleneksel pazarlama yöntemleri olan dergi, TV, gazete vb. reklamların aksine teknolojinin kullanılması ile ortaya çıkmış ve her an her saniye bize ulaşabilen bir pazarlama çeşididir. 
                           </p>
                         </div>
                         <div className="more">
                           <Link href={`/blog-details/blog-details-dark`}>
-                            Read More
+                            Devamı.. {/* Read */}
                           </Link>
                         </div>
                       </div>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide>
+
+                  <SwiperSlide /* TODO örnek blog başlık giriş ve link */>
                     <div className="item wow fadeIn" data-wow-delay=".6s">
                       <div className="content">
                         <div className="tags">
@@ -240,13 +253,14 @@ const Blogs4 = () => {
                         </div>
                         <div className="more">
                           <Link href={`/blog-details/blog-details-dark`}>
-                            Read More
+                            Devamı.. {/* Read */}
                           </Link>
                         </div>
                       </div>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide>
+
+                  <SwiperSlide /* TODO örnek blog başlık giriş ve link */>
                     <div className="item wow fadeIn" data-wow-delay=".6s">
                       <div className="content">
                         <div className="tags">
@@ -277,7 +291,45 @@ const Blogs4 = () => {
                         </div>
                         <div className="more">
                           <Link href={`/blog-details/blog-details-dark`}>
-                            Read More
+                            Devamı.. {/* Read */}
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+
+                  <SwiperSlide /* TODO örnek blog başlık giriş ve link */>
+                    <div className="item wow fadeIn" data-wow-delay=".6s">
+                      <div className="content">
+                        <div className="tags">
+                          <Link href="/blog/blog-dark">Trending</Link>
+                        </div>
+                        <div className="info">
+                          <Link href="/blog/blog-dark">
+                            <a>
+                              <i className="far fa-clock"></i>
+                              06 Aug 2022
+                            </a>
+                          </Link>
+                          <a href="#0">by Alex Morgan</a>
+                        </div>
+                        <div className="title">
+                          <h4>
+                            <Link href="/blog-details/blog-details-dark">
+                              <a>World Best Business Website Company</a>
+                            </Link>
+                          </h4>
+                        </div>
+                        <div className="text">
+                          <p>
+                            Success is no accident. It is hard work,
+                            perseverance, learning, studying, sacrifice and most
+                            of all, love of what you are doing.
+                          </p>
+                        </div>
+                        <div className="more">
+                          <Link href={`/blog-details/blog-details-dark`}>
+                            Devamı.. {/* Read */}
                           </Link>
                         </div>
                       </div>

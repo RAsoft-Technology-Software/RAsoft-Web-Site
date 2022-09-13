@@ -94,7 +94,7 @@ const Works3 = () => {
                       <div className="img">
                         <span className="imgio">
                           <span className="wow cimgio" data-delay="500"></span>
-                          <img src="/img/portfolio/2.jpg" alt="" />
+                          <img src="/img/portfolio/2-demo.jpg" alt="" /* TODO link img ve başlık değiştir *//>
                         </span>
                       </div>
                       <div className="cont">
@@ -120,7 +120,7 @@ const Works3 = () => {
                       <div className="img">
                         <span className="imgio">
                           <span className="wow cimgio" data-delay="500"></span>
-                          <img src="/img/portfolio/1.jpg" alt="" />
+                          <img src="/img/portfolio/1-demo.jpg" alt="" /* TODO link img ve başlık değiştir *//>
                         </span>
                       </div>
                       <div className="cont">
@@ -146,7 +146,7 @@ const Works3 = () => {
                       <div className="img">
                         <span className="imgio">
                           <span className="wow cimgio" data-delay="500"></span>
-                          <img src="/img/portfolio/3.jpg" alt="" />
+                          <img src="/img/portfolio/3-demo.jpg" alt="" /* TODO link img ve başlık değiştir *//>
                         </span>
                       </div>
                       <div className="cont">
@@ -172,7 +172,7 @@ const Works3 = () => {
                       <div className="img">
                         <span className="imgio">
                           <span className="wow cimgio" data-delay="500"></span>
-                          <img src="/img/portfolio/4.jpg" alt="" />
+                          <img src="/img/portfolio/4-demo.jpg" alt="" /* TODO link img ve başlık değiştir *//>
                         </span>
                       </div>
                       <div className="cont">
@@ -198,7 +198,7 @@ const Works3 = () => {
                       <div className="img">
                         <span className="imgio">
                           <span className="wow cimgio" data-delay="500"></span>
-                          <img src="/img/portfolio/5.jpg" alt="" />
+                          <img src="/img/portfolio/5-demo.jpg" alt="" /* TODO link img ve başlık değiştir *//>
                         </span>
                       </div>
                       <div className="cont">
@@ -224,7 +224,7 @@ const Works3 = () => {
                       <div className="img">
                         <span className="imgio">
                           <span className="wow cimgio" data-delay="500"></span>
-                          <img src="/img/portfolio/6.jpg" alt="" />
+                          <img src="/img/portfolio/6-demo.jpg" alt="" /* TODO link img ve başlık değiştir *//>
                         </span>
                       </div>
                       <div className="cont">

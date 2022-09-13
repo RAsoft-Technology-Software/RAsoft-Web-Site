@@ -1,0 +1,73 @@
+{
+  "id": 1,
+  "title": { "small": "", "big": "Web Uygulamaları Geliştirme" },
+  "clientURLLink": "#",
+  "projectHeaderImage": "/img/portfolio/project2/web/bg-demo.jpg",
+  "videoLink": "https://vimeo.com/127203262",
+  "clientURLName": "Envato.com",
+  "date": "6 August 2022",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Web Design",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "name": "WordPress",
+      "link": "#"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Minimal",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "name": "Modern",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "name": "Design",
+      "link": "#"
+    }
+  ],
+  "intro": {
+    "content": "Geliştirilen web uygulamaları sayesinde müşterilerinize kişiselleştirilmiş içerik hizmetleri, özel kampanyalar ve teklifler, anında alım ve satım gibi pek çok farklı iletişim platformu yaratabilirsiniz.",
+    "content2": "Günümüzün en etkili paylaşım ve iletişim aracı olan internet, insanların dünyaya açılan penceresi niteliğindedir. İnternetin insanlar tarafından bu bakış açısı ile kullanılması bireyler, markalar ve işletmeler tarafından göz ardı edilmemesi gereken bir gerçekliktir. Bu gerçekliği kullanan RAsoft olarak size özel çözümler sunuyoruz.",
+    "content3": "Web tasarım çözümleri ile Arama Motoru Optimizasyonu başta olmak üzere pek çok algoritmayı dikkate alarak kusursuzluğu ön planda tutuyoruz. Üstelik tasarladığımız her web sitesinde ‘Kullanıcı Odaklılık’ anlayışından asla geri durmuyoruz. SEO optimizasyonunu gerçekleştirdiğimiz ve her yönüyle kusursuzluğu vaat eden web tasarım çözümlerimizle siz de kaliteden yana tercih kullanabilirsiniz!",
+    "spmList": [
+      {
+        "id": 1,
+        "name": "Aenean sollicitudin"
+      },
+      {
+        "id": 2,
+        "name": "lorem quis bibendum auctor"
+      },
+      {
+        "id": 31,
+        "name": "nisi elit conseq uat ipsum"
+      },
+      {
+        "id": 4,
+        "name": "nec sagittis sem nibh id elit"
+      }
+    ]
+  },
+  "gallery": [
+    "/img/portfolio/project2/web/1.jpg",
+    "/img/portfolio/project2/web/2.jpg",
+    "/img/portfolio/project2/web/3.jpg",
+    "/img/portfolio/project2/web/5.jpg",
+    "/img/portfolio/project2/web/7.jpg"
+  ],
+  "description": {
+    "content": "lorem ipsum dolor sit amet",
+    "content2": "lorem ipsum dolor sit amet"
+  }
+ 
+}

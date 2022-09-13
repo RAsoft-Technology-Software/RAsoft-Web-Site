@@ -27,7 +27,7 @@ const AboutUs3 = () => {
                     >
                       <img
                         className="thumparallax-down"
-                        src={AboutUs3date.image1}
+                        src={AboutUs3date.image1/*TODO resim değiştir*/}
                         alt=""
                       />
                     </div>
@@ -45,7 +45,7 @@ const AboutUs3 = () => {
                     >
                       <img
                         className="thumparallax"
-                        src={AboutUs3date.image2}
+                        src={AboutUs3date.image2/*TODO resim değiştir*/}
                         alt=""
                       />
                     </div>

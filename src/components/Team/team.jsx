@@ -30,7 +30,7 @@ const Team = () => {
                 RAsoft olarak; özgün web siteleri, dikkat çekici markalar ve son teknoloji uygulamalar geliştiriyoruz.
               </p>
               <div className="skills-box mt-40">
-                {teamsDate.skills.map((skill) => (
+                {teamsDate.skills.map((skill) => (/* TODO skills ekle/çıkar düzenle team.json */
                   <div className="skill-item" key={skill.id}>
                     <h6 className="custom-font">{skill.text}</h6>
                     <div className="skill-progress">
@@ -46,7 +46,7 @@ const Team = () => {
               <div className="row">
                 <div className="col-sm-6 toright">
                   <div className="full-width">
-                    {teamsDate.teams.slice(0, 2).map((team, index) => (
+                    {teamsDate.teams.slice(0, 2).map((team, index) => ( /* TODO team.json */
                       <div key={team.id}>
                         <div
                           className={`img sizxl ${
@@ -57,7 +57,7 @@ const Team = () => {
                           data-tooltip-tit={team.title}
                           data-tooltip-sub={team.sub}
                         >
-                          <img src={team.image} alt="" className="imago wow" />
+                          <img src={team.image} alt="" className="imago wow" /* team.json düzenle *//>
                         </div>
                       </div>
                     ))}
@@ -76,7 +76,7 @@ const Team = () => {
                           data-tooltip-tit={team.title}
                           data-tooltip-sub={team.sub}
                         >
-                          <img src={team.image} alt="" className="imago wow" />
+                          <img src={team.image} alt="" className="imago wow" /* TODO css ekle eğer avatar eklencekse, yoksa 500x700 foto ekle. *//>
                         </div>
                       </div>
                     ))}

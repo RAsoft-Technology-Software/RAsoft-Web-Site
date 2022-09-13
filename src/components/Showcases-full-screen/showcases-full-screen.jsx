@@ -76,7 +76,7 @@ const ShowcasesFullScreen = () => {
             className="swiper-wrapper"
             slidesPerView={1}
           >
-            {ShowcassesFullScreenData.map((slide) => (
+            {ShowcassesFullScreenData.map((slide) => (/* TODO slidelar için showcase-full-screen-slider.json düzenle */
               <SwiperSlide key={slide.id} className="swiper-slide">
                 <div
                   className="bg-img valign"
@@ -107,7 +107,7 @@ const ShowcasesFullScreen = () => {
                           </h1>
                           <div className="discover">
                             <Link
-                              href={`/dashboard`}
+                              href={`/works-dark`}
                             >
                               <a>
                                 <span>

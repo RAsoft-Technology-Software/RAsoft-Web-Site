@@ -7,7 +7,7 @@ import { useState } from "react";
 const Footer = ({ hideBGCOLOR }) => {
   const [mail, setMail] = useState('');
 
-  const aboneOl = (e) => {
+  const aboneOl = (e) => { //TODO mail entegrasyon
     e.preventDefault()
 
     console.log("abone olduk ", mail)
@@ -54,11 +54,11 @@ const Footer = ({ hideBGCOLOR }) => {
                 <h5>Blog{/*Recent News*/}</h5>
               </div>
               <ul>
-                <li>
+                <li /* TODO blog örneği footer için */>
                   <div className="img">
                     <Link href="/blog-details/blog-details-dark">
                       <a>
-                        <img src="/img/blog/1.jpg" alt="" />
+                        <img src="/img/blog/1-demo.jpg" alt="" />
                       </a>
                     </Link>
                   </div>
@@ -78,11 +78,12 @@ const Footer = ({ hideBGCOLOR }) => {
                     </Link>
                   </div>
                 </li>
-                <li>
+
+                <li /* TODO blog örneği footer için */>
                   <div className="img">
                     <Link href="/blog-details/blog-details-dark">
                       <a>
-                        <img src="/img/blog/2.jpg" alt="" />
+                        <img src="/img/blog/2-demo.jpg" alt="" />
                       </a>
                     </Link>
                   </div>
@@ -102,6 +103,7 @@ const Footer = ({ hideBGCOLOR }) => {
                     </Link>
                   </div>
                 </li>
+
                 <li>
                   <div className="subscribe">
                     <input type="text" id="email" name="email" onChange={e => setMail(e.target.value)} placeholder="Emailinizi Giriniz" />

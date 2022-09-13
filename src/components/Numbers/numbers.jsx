@@ -12,7 +12,7 @@ const Numbers = () => {
     return (
       <section className="number-sec section-padding">
         <div className="container">
-          <div className="row justify-content-center">
+          {/*<div className="row justify-content-center">
             <div className="col-lg-8 col-md-10">
               <div className="sec-head  text-center">
                 <h6 className="wow fadeIn" data-wow-delay=".5s">
@@ -23,7 +23,7 @@ const Numbers = () => {
                 </h3>
               </div>
             </div>
-          </div>
+          </div>*/}
           <div className="row">
             {funFactDate.map((item) => (
               <div key={item.id} className="col-md-4">
@@ -38,6 +38,7 @@ const Numbers = () => {
                         </VisibilitySensor>
                       )}
                     </CountUp>
+                    <span>+</span>
                   </h3>
                   <Split>
                     <p className="wow txt words chars splitting" data-splitting>

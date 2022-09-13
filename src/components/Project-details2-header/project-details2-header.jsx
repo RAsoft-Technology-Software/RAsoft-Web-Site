@@ -17,7 +17,7 @@ const ProjectDetails2Header = ({ projectHeaderData }) => {
             </div>
           </div>
         </div>
-        <div className="row">
+        {/*<div className="row">
           <div className="col-lg-3">
             <div className="item mt-30">
               <h6>Client</h6>
@@ -66,7 +66,7 @@ const ProjectDetails2Header = ({ projectHeaderData }) => {
               </p>
             </div>
           </div>
-        </div>
+        </div>*/}
       </div>
     </section>
   );

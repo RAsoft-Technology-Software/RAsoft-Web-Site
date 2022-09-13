@@ -17,7 +17,7 @@ const PagesHeader = () => {
           </div>
           <div className="col-lg-10">
             <div className="img">
-              <img src="/img/slid/about.jpg" alt="" />
+              <img src="/img/slid/about-demo.jpg" alt="" /* TODO hakkımızda sayfası ilk foto *//>
             </div>
           </div>
         </div>

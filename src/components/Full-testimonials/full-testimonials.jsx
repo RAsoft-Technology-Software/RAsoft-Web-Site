@@ -107,7 +107,7 @@ class FullTestimonials extends React.Component {
                     <div className="cont">
                       <div className="author">
                         <div className="img">
-                          <img src="/img/clients/1.jpg" alt="" />
+                          <img src="/img/clients/1-demo.jpg" alt="" /* TODO müşteri/marka foto ve yorumu *//>
                         </div>
                         <h6 className="author-name color-font">
                           Alex Regelman
@@ -128,7 +128,7 @@ class FullTestimonials extends React.Component {
                     <div className="cont">
                       <div className="author">
                         <div className="img">
-                          <img src="/img/clients/1.jpg" alt="" />
+                          <img src="/img/clients/1-demo.jpg" alt="" /* TODO müşteri/marka foto ve yorumu *//>
                         </div>
                         <h6 className="author-name color-font">
                           Alex Regelman
@@ -149,7 +149,7 @@ class FullTestimonials extends React.Component {
                     <div className="cont">
                       <div className="author">
                         <div className="img">
-                          <img src="/img/clients/1.jpg" alt="" />
+                          <img src="/img/clients/1-demo.jpg" alt="" /* TODO müşteri/marka foto ve yorumu *//>
                         </div>
                         <h6 className="author-name color-font">
                           Alex Regelman
@@ -170,7 +170,7 @@ class FullTestimonials extends React.Component {
                     <div className="cont">
                       <div className="author">
                         <div className="img">
-                          <img src="/img/clients/1.jpg" alt="" />
+                          <img src="/img/clients/1-demo.jpg" alt="" /* TODO müşteri/marka foto ve yorumu *//>
                         </div>
                         <h6 className="author-name color-font">
                           Alex Regelman

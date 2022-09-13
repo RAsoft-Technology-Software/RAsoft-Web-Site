@@ -313,7 +313,8 @@ span:hover {
 }
 
 .section-padding {
-  padding: 120px 0;
+  /*padding: 120px 0;*/
+  padding: 90px 0;
 }
 
 .section-ptb {
@@ -1270,6 +1271,7 @@ span:hover {
   -webkit-transition-delay: 0.3s;
   -o-transition-delay: 0.3s;
   transition-delay: 0.3s;
+  /*border_Raadius eklenebilir*/
 }
 
 .imago.animated {
@@ -1564,7 +1566,8 @@ span:hover {
 /* ====================== [ Start Heading ] ====================== */
 .sec-head {
   position: relative;
-  margin: 0 auto 80px;
+  /*margin: 0 auto 80px;*/
+  margin: 0 auto 40px;
 }
 
 .sec-head h6 {
@@ -4376,7 +4379,7 @@ span:hover {
   background: rgba(255, 255, 255, 0.01);
 }
 
-.services.box .item-box .icon {
+.services.box .item-box .icon  {
   font-size: 60px;
 }
 
@@ -4812,10 +4815,13 @@ span:hover {
   font-size: 40px;
   line-height: 1.5;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .min-area .content ul {
   margin: 0;
+  display: flex;  /* rasoft*/
+  flex-wrap: wrap;  /* rasoft*/
 }
 
 .min-area .content ul li {
@@ -5174,7 +5180,7 @@ span:hover {
 }
 
 .portfolio .gallery .bords .cont {
-  border: 1px solid rgba(255, 255, 255, 0.03);
+  /*border: 1px solid rgba(255, 255, 255, 0.03);*/
   margin-top: 0;
   border-top: 0;
   padding: 10px;
@@ -7821,6 +7827,11 @@ span:hover {
 .number-sec .container.sub-bg .item.no-bord {
   border: 0;
 }
+
+/* RAsoft */
+.number-sec.section-padding {
+  padding: 0 0 30px 0;
+}/**/
 
 .video {
   position: relative;
