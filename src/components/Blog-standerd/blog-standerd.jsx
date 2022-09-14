@@ -34,11 +34,12 @@ const BlogStanderd = ({ blogs }) => {
                             <span className="num">{blogItem.date.day} </span>
                             <span>{blogItem.date.month}</span>
                           </a>
-              </Link>*/}
-                          <a className="date">
-                            <span className="num">{blogItem.date.day} </span>
-                            <span>{blogItem.date.month}</span>
-                          </a>
+                        </Link>*/}
+                        <a className="date">
+                          <span className="num">{blogItem.date.day} </span>
+                          <span>{blogItem.date.month}</span>
+                        </a>
+
                         <div className="tags">
                           {blogItem.tags.map((tag, index) => (
                             <Link key={index} href="/blog">
@@ -46,18 +47,25 @@ const BlogStanderd = ({ blogs }) => {
                             </Link>
                           ))}
                         </div>
+
                         <h4 className="title">
                           {/*<Link href={`/blog-details-dark`}>
                             {blogItem.title}
                           </Link>*/}
-                          <Link href={`/blog/${blogItem.slug}`}>
+                          <Link as={`/blog/${blogItem.slug}`} href="/blog/[blogDetails]">
                             {blogItem.title}
                           </Link>
                         </h4>
+
                         <p>{blogItem.content}</p>
-                        <Link href={`/blog-details-dark`}>
+
+                        {/*<Link href={`/blog-details-dark`}>
+                          <a className="butn bord curve mt-30">Devamı..</a>
+                        </Link>*/}
+                        <Link as={`/blog/${blogItem.slug}`} href="/blog/[blogDetails]">
                           <a className="butn bord curve mt-30">Devamı..{/*Read More*/}</a>
                         </Link>
+
                       </div>
                     </div>
                   </div>

@@ -53,8 +53,8 @@ const Footer = ({ hideBGCOLOR }) => {
               <div className="title">
                 <h5>Blog{/*Recent News*/}</h5>
               </div>
-              <ul>
-                <li /* TODO blog örneği footer için */>
+              <ul /* sondaki iki blog yazısı olsun (function) */ >
+                <li>
                   <div className="img">
                     <Link href="/blog-details/blog-details-dark">
                       <a>
@@ -79,7 +79,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   </div>
                 </li>
 
-                <li /* TODO blog örneği footer için */>
+                <li>
                   <div className="img">
                     <Link href="/blog-details/blog-details-dark">
                       <a>

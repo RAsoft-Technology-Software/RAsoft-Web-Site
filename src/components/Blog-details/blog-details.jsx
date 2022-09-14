@@ -31,7 +31,7 @@ const BlogDetails = ({ theme }) => {
                   <div className="col-lg-10">
                     <div className="cont">
                       <h4 className="extra-title">
-                        Priorities that will pop up in any particular month.
+                        blof Priorities that will pop up in any particular month.
                       </h4>
                       <div className="spacial">
                         <p>
