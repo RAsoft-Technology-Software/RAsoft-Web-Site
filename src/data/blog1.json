@@ -1,46 +1,62 @@
 [
   {
     "id": 1,
-    "title": "Build a Beautiful Blog With Ease",
-    "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-    "image": "/img/blog/b1.jpg",
-    "tags": ["WordPress", "Themeforest", "Vie"],
+    "title": "Dijital Pazarlama Nedir?",
+    "slug": "dijital-pazarlama",
+    "content": "Dijital pazarlama, geleneksel pazarlama yöntemleri olan dergi, TV, gazete vb. reklamların aksine teknolojinin kullanılması ile ortaya çıkmış ve her an her saniye bize ulaşabilen bir pazarlama çeşididir. Özellikle akıllı telefonların hayatımıza girmesi ile rüştünü ispat eden dijital pazarlama başta yaygın sosyal medya mecraları Instagram, Facebook ve Twitter olmak üzere pek çok alanda kullanılır. Uygulanması sırasında farklı yöntemlerin kullanıldığı dijital pazarlamanın en önemli yönü kısa sürede büyük kitlelere ulaşabilecek potansiyelde olmasıdır. ",
+    "image": "/img/blog/b1-demo.jpg",
+    "tags": ["WordPress", "Marketing"],
     "date": {
-      "day": "07",
-      "month": "August"
+      "day": "30",
+      "month": "Eylül"
     }
   },
   {
     "id": 2,
-    "title": "Build a Beautiful Blog With Ease",
-    "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-    "image": "/img/blog/b2.jpg",
-    "tags": ["WordPress", "Themeforest", "Vie"],
+    "title": "Google Adwords Nedir? Firmalara Katkıları Nelerdir?",
+    "slug": "google-adwords-ve-firmalara-katkilari",
+    "content": "Google Adwords, Google üzerinden yapılan bir reklam çeşididir. Dünya üzerinde pek çok internet kullanıcısı arama motorlarından arama yaparak istedikleri bilgilere ulaşmaya çalışmaktadır. Bu Google reklamlarının internet kullanıcıları üzerindeki etkisi günden güne artmaktadır. Bu nedenle Google reklamlarına olan talepte artmaya başlamıştır. Bu reklamları hem işverenlerin hedef kitlelerine kolaylıkla ulaşmasını hem de kullanıcıların istedikleri bilgiye ulaşmalarını sağlar. Peki, Google Adwords’un firmalara diğer faydaları nelerdir?",
+    "image": "/img/blog/b2-demo.jpg",
+    "tags": ["WordPress", "Marketing"],
     "date": {
-      "day": "07",
-      "month": "August"
+      "day": "20",
+      "month": "Eylül"
     }
   },
   {
     "id": 3,
-    "title": "Build a Beautiful Blog With Ease",
-    "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-    "image": "/img/blog/b3.jpg",
-    "tags": ["WordPress", "Themeforest", "Vie"],
+    "title": "E-Ticaret’te SEO’nun Önemi Nedir?",
+    "slug": "e-ticarette-seo-nun-onemi",
+    "content": "E-ticaret ve SEO kavramları internetin gelişmesi ile hayatımıza girmiş ve günün her anında duyabildiğimiz kavramlar olarak hayatımıza yerleşmiştir. Oturduğunuz yerden alış veriş imkânı sunan e-ticaret sayesinde mağaza mağaza gezmeye ihtiyaç duymadan bir tıkla istediğiniz ürüne ulaşma ve ürünü inceleme imkânı buluyorsunuz. SEO ile de aradığınız ürünü daha kısa sürede bulma fırsatı yakalıyorsunuz. Bu açıdan E-ticaret ve SEO bir elmanın iki yarısı gibi birbirinden bağımsız düşünülmemesi gereken iki kavramdır.",
+    "image": "/img/blog/b3-demo.jpg",
+    "tags": ["WordPress", "Design"],
     "date": {
-      "day": "07",
-      "month": "August"
+      "day": "18",
+      "month": "Eylül"
     }
   },
   {
     "id": 4,
-    "title": "Build a Beautiful Blog With Ease",
-    "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-    "image": "/img/blog/b4.jpg",
-    "tags": ["WordPress", "Themeforest", "Vie"],
+    "title": "Responsive Web Sitesinin Müşteriler Üzerindeki Etkisi",
+    "slug": "responsive-web-sitesinin-musteriler-uzerindeki-etkisi",
+    "content": "Responsive web sitesi; web sitelerinin mobil cihazlar ile uyumlu hale getirilmesi anlamında gelmektedir ve web tasarımda en çok kullanılan terimlerden biridir. Responsive web sitelerin pek çok avantajı vardır.",
+    "image": "/img/blog/b4-demo.jpg",
+    "tags": ["WordPress", "Photography"],
     "date": {
-      "day": "07",
-      "month": "August"
+      "day": "18",
+      "month": "Eylül"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Sosyal Medya Yönetimi Nasıl Olmalıdır?",
+    "slug": "sosyal-medya-yonetimi-nasil-olmalidir",
+    "content": "Sosyal medya yönetimi ile başarı elde etmek ister misiniz? Sosyal medya hem markalar hem de tüketiciler için oldukça önemli bir mecradır. Dijital pazarlama araçlarından en çok kullanılan araç olan sosyal medya yönetimi kolay gözükse de markalar için zordur. Çünkü markalar ve reklamcılar için sosyal medya bir reklam mecrasıdır ve bir uzman tarafından yönetilmesi gerekmektedir. Peki, sosyal medya yönetimi nasıl olmalıdır? İşte cevapları…",
+    "image": "/img/blog/b5-demo.jpg",
+    "tags": ["WordPress", "Photography"],
+    "date": {
+      "day": "4",
+      "month": "Eylül"
     }
   }
 ]

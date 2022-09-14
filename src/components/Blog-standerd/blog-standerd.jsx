@@ -17,35 +17,45 @@ const BlogStanderd = ({ blogs }) => {
                   key={blogItem.id}
                 >
                   <div className="img">
-                    <Link href={`/blog-details/blog-details-dark`}>
+                    {/*<Link href={`/blog-details-dark`}>
                       <a>
                         <img src={blogItem.image} alt="" />
                       </a>
-                    </Link>
+                </Link>*/}
+                    <a>
+                      <img src={blogItem.image} alt="" />
+                    </a>
                   </div>
                   <div className="content">
                     <div className="row justify-content-center">
                       <div className="col-10">
-                        <Link href={`/blog/blog-dark`}>
+                        {/*<Link href={`/blog`}>
                           <a className="date">
-                            <span className="num">{blogItem.date.day}</span>
+                            <span className="num">{blogItem.date.day} </span>
                             <span>{blogItem.date.month}</span>
                           </a>
-                        </Link>
+              </Link>*/}
+                          <a className="date">
+                            <span className="num">{blogItem.date.day} </span>
+                            <span>{blogItem.date.month}</span>
+                          </a>
                         <div className="tags">
                           {blogItem.tags.map((tag, index) => (
-                            <Link key={index} href="/blog/blog-dark">
+                            <Link key={index} href="/blog">
                               {tag}
                             </Link>
                           ))}
                         </div>
                         <h4 className="title">
-                          <Link href={`/blog-details/blog-details-dark`}>
+                          {/*<Link href={`/blog-details-dark`}>
+                            {blogItem.title}
+                          </Link>*/}
+                          <Link href={`/blog/${blogItem.slug}`}>
                             {blogItem.title}
                           </Link>
                         </h4>
                         <p>{blogItem.content}</p>
-                        <Link href={`/blog-details/blog-details-dark`}>
+                        <Link href={`/blog-details-dark`}>
                           <a className="butn bord curve mt-30">Devamı..{/*Read More*/}</a>
                         </Link>
                       </div>
@@ -53,21 +63,21 @@ const BlogStanderd = ({ blogs }) => {
                   </div>
                 </div>
               ))}
-              <div className="pagination">
+              {/*<div className="pagination">
                 <span className="active">
-                  <Link href={`/blog/blog-dark`}>1</Link>
+                  <Link href={`/blog`}>1</Link>
                 </span>
                 <span>
-                  <Link href={`/blog/blog-dark`}>2</Link>
+                  <Link href={`/blog`}>2</Link>
                 </span>
                 <span>
-                  <Link href={`/blog/blog-dark`}>
+                  <Link href={`/blog`}>
                     <a>
                       <i className="fas fa-angle-right"></i>
                     </a>
                   </Link>
                 </span>
-              </div>
+              </div>*/}
             </div>
           </div>
         </div>

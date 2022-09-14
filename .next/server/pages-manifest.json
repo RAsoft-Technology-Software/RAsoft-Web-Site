@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/web-uygulamalari-gelistirme": "pages/web-uygulamalari-gelistirme.js",
-  "/404": "pages/404.js"
+  "/404": "pages/404.js",
+  "/blog-details/blog-details-light": "pages/blog-details/blog-details-light.js"
 }

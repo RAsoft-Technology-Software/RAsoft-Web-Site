@@ -15,11 +15,6 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/404": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -40,15 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/blog.js"
     ],
-    "/powerbi-powerapps": [
+    "/blog-details/blog-details-light": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/powerbi-powerapps.js"
-    ],
-    "/web-uygulamalari-gelistirme": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/web-uygulamalari-gelistirme.js"
+      "static/chunks/pages/blog-details/blog-details-light.js"
     ]
   },
   "ampFirstPages": []
