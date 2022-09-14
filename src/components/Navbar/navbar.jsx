@@ -74,12 +74,12 @@ const Navbar = ({ lr, nr, theme }) => {
                 <Link href={`/dijital-pazarlama`}>
                   <a className="dropdown-item">Dijital Pazarlama</a>
                 </Link>
-                <Link href={`/microsoft-cozumleri`}>
-                  <a className="dropdown-item">Microsoft Çözümleri</a>
+                <Link href={`/it-hizmet-cozumleri`}>
+                  <a className="dropdown-item">IT Hizmet & Çözümleri</a>
                 </Link>
-                <Link href={`/powerbi-powerapps`}>
+                {/*<Link href={`/powerbi-powerapps`}>
                   <a className="dropdown-item">Power BI & PowerApps</a>
-                </Link>
+            </Link>*/}
               </div>
             </li>
             <li className="nav-item">

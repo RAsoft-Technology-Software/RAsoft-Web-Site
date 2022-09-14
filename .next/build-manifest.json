@@ -34,6 +34,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/it-hizmet-cozumleri": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/it-hizmet-cozumleri.js"
+    ],
+    "/web-uygulamalari-gelistirme": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/web-uygulamalari-gelistirme.js"
     ]
   },
   "ampFirstPages": []

@@ -8,7 +8,7 @@ import ProjectIntroduction from "../components/Project-introduction/project-intr
 import ProjectGallery from "../components/Project-gallery/project-gallery-e-ticaret";
 import ProjectDescription from "../components/Project-description/project-description";
 import ProjectVideo from "../components/Project-video/project-video";
-import NextProject from "../components/Next-project/next-project";
+import NextProject from "../components/Next-project/next-project-e-ticaret";
 
 const ETicaretEntegrasyonSitemleri = () => {
   const navbarRef = React.useRef(null);

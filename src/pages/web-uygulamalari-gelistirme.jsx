@@ -9,7 +9,7 @@ import ProjectIntroduction from "../components/Project-introduction/project-intr
 import ProjectGallery from "../components/Project-gallery/project-gallery-web";
 import ProjectDescription from "../components/Project-description/project-description";
 import ProjectVideo from "../components/Project-video/project-video";
-import NextProject from "../components/Next-project/next-project";
+import NextProject from "../components/Next-project/next-project-web";
 
 const WebUygulamalariGelistirme = () => {
   const navbarRef = React.useRef(null);
@@ -39,7 +39,7 @@ const WebUygulamalariGelistirme = () => {
         <ProjectIntroduction projectIntroductionData={ProjectDate.intro} />
         {/*<ProjectDescription projectDescriptionData={ProjectDate.description} />*/}
         <ProjectGallery />
-        <Services style="4item" />
+        {/*<Services style="4item" />*/}
         {/*<ProjectVideo projectVideoDate={ProjectDate} />*/}
         <NextProject />
         <Footer />

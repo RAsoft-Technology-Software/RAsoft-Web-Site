@@ -8,7 +8,7 @@ import ProjectIntroduction from "../components/Project-introduction/project-intr
 import ProjectGallery from "../components/Project-gallery/project-gallery-powerbi";
 import ProjectDescription from "../components/Project-description/project-description";
 import ProjectVideo from "../components/Project-video/project-video";
-import NextProject from "../components/Next-project/next-project";
+import NextProject from "../components/Next-project/next-project-power";
 
 const PowerBIPowerApps = () => {
   const navbarRef = React.useRef(null);

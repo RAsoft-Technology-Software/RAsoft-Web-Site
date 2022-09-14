@@ -4292,6 +4292,11 @@ span:hover {
 
 .extra-text {
   font-size: 22px;
+
+}
+.large-text {
+  font-size: 18px;
+  text-align:justify ;
 }
 
 .video-wrapper {
