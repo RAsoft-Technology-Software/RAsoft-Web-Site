@@ -15,16 +15,6 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
-    "/404": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/404.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -33,6 +23,17 @@
     "/_error": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
+      "static/chunks/pages/_error.js"
+    ],
+    "/blog": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/blog.js"
+    ],
+    "/projelerimiz": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+<<<<<<< HEAD
       "static/chunks/pages/_error.js"
     ],
     "/it-hizmet-cozumleri": [
@@ -44,6 +45,9 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/web-uygulamalari-gelistirme.js"
+=======
+      "static/chunks/pages/projelerimiz.js"
+>>>>>>> c8de2a176d0fcbc001871ae5e96413db5e436623
     ]
   },
   "ampFirstPages": []

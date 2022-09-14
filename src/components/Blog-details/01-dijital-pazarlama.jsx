@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Formik, Form, Field } from "formik";
 import { Link as ScrollLink } from "react-scroll";
 
-const BlogDetails = ({ theme }) => {
+const BlogDetails1 = ({ theme }) => {
   const messageRef = React.useRef(null);
   function validateEmail(value) {
     let error;
@@ -31,7 +31,7 @@ const BlogDetails = ({ theme }) => {
                   <div className="col-lg-10">
                     <div className="cont">
                       <h4 className="extra-title">
-                        Priorities that will pop up in any particular month.
+                        dijital Priorities that will pop up in any particular month.
                       </h4>
                       <div className="spacial">
                         <p>
@@ -343,4 +343,4 @@ const BlogDetails = ({ theme }) => {
   );
 };
 
-export default BlogDetails;
+export default BlogDetails1;

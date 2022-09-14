@@ -6,7 +6,7 @@ import BlogStanderd from "../components/Blog-standerd/blog-standerd";
 import PageHeader from "../components/Page-header/page-header";
 import Footer from "../components/Footer/footer";
 
-const BlogDark = () => {  //TODO linkler sıkıntılı
+const BlogDark = () => {
     const navbarRef = React.useRef(null);
     const logoRef = React.useRef(null);
     React.useEffect(() => {
