@@ -1,6 +1,6 @@
 {
   "id": 1,
-  "title": { "small": "", "big": "Mobil Uygulamaları Geliştirme" },
+  "title": { "small": "", "big": "Mobil Uygulama Geliştirme" },
   "clientURLLink": "#",
   "projectHeaderImage": "/img/portfolio/project2/mobil/bg-demo.jpg",
   "videoLink": "https://vimeo.com/127203262",
@@ -37,7 +37,7 @@
   ],
   "intro": {
     "content": "Global yazılım deneyimlerimizi hayalinizdeki uygulama ile birleştirip, hedeflerinizin ötesine taşıyalım.",
-    "content2": "Mobil uygulama geliştirme çözümleri ile markanızı ön plana çıkaracak çözümlere Rasoft ile göz atmaya ne dersiniz? Kaliteli, başarılı üstelik kullanıcı beklentilerine odaklanan seçenekler için hemen harekete geçmeye hazır olun! RAsoft olarak sizlerden gelen talepleri kullanıcıların da beklentilerini dikkate alarak tasarlıyoruz. Üstelik Android uygulamalar ve iOS uygulamalar konusunda da çözümlerimizde kusursuzluğa ulaşıyoruz.",
+    "content2": "Mobil uygulama geliştirme çözümleri ile markanızı ön plana çıkaracak çözümlere RAsoft ile göz atmaya ne dersiniz? Kaliteli, başarılı üstelik kullanıcı beklentilerine odaklanan seçenekler için hemen harekete geçmeye hazır olun! RAsoft olarak sizlerden gelen talepleri kullanıcıların da beklentilerini dikkate alarak tasarlıyoruz. Üstelik Android uygulamalar ve iOS uygulamalar konusunda da çözümlerimizde kusursuzluğa ulaşıyoruz.",
     "content3": "Akıllı cihazlar aracılığı ile kitlenizin yaşamını kolaylaştıracak mobil uygulamalara, mobil uygulama programlama seçeneğimizle sahip olabileceğinizi biliyor muydunuz? Mobil uygulamaların insan hayatını değiştiren ve dönüştüren etkisini ortaya çıkarmak adına siz de RAsoft avantajlarını yaşamak için harekete geçebilirsiniz.",
     "spmList": [
       {
@@ -69,5 +69,4 @@
     "content": "lorem ipsum dolor sit amet",
     "content2": "lorem ipsum dolor sit amet"
   }
- 
 }

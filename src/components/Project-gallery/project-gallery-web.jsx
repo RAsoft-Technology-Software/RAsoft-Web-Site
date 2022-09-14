@@ -7,20 +7,20 @@ const ProjectGallery = () => {
       <div className="popup-img">
         <div className="row">
           <a href="#" className="col-md-3 popimg">
-            <img alt="" src="/img/portfolio/project2/web/1.jpg" />
+            <img alt="" src="/img/portfolio/project2/web/asmin.jpg" />
           </a>
           <a href="#" className="col-md-3 popimg">
-            <img alt="" src="/img/portfolio/project2/web/2.jpg" />
+            <img alt="" src="/img/portfolio/project2/web/sefacan.jpg" />
           </a>
           <a href="#" className="col-md-3 popimg">
-            <img alt="" src="/img/portfolio/project2/web/3.jpg" />
+            <img alt="" src="/img/portfolio/project2/web/vipbir.jpg" />
           </a>
           <a href="#" className="col-md-3 popimg">
-            <img alt="" src="/img/portfolio/project2/web/5.jpg" />
+            <img alt="" src="/img/portfolio/project2/web/ermak.jpg" />
           </a>
-          <a href="#" className="col-md-12 popimg">
+          {/*<a href="#" className="col-md-12 popimg">
             <img alt="" src="/img/portfolio/project2/web/7.jpg" />
-          </a>
+          </a>*/}
         </div>
       </div>
     </section>

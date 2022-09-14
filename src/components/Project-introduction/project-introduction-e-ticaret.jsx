@@ -7,41 +7,42 @@ const ProjectIntroduction = ({ projectIntroductionData }) => {
         <div className="row">
           <div className="col-lg-3 col-md-4">
             <div className="htit">
-              <h4>
-                <span>01 </span> E-Ticaret Entegrasyon Sistemleri
-              </h4>
+              <h5>
+                <span>01 </span> Neler Sunuyoruz ?
+              </h5>
             </div>
           </div>
           <div className="col-lg-8 offset-lg-1 col-md-8">
             <div className="text js-scroll__content">
-              <p className="extra-text">
+              <p className="large-text">
                 {projectIntroductionData.content}
               </p>
               <br />
               <b>Pazaryeri Nedir?</b>
               <br />
-              <p className="extra-text">
+              <p className="large-text">
                 {projectIntroductionData.content2}
               </p>
               <br />
-              <p className="extra-text">
+              <p className="large-text">
                 {projectIntroductionData.content3}
               </p>
               <br />
-              <p className="extra-text">
+              <p className="large-text">
                 {projectIntroductionData.content4}
               </p>
+              <br />
               <b>E-Ticaret Nedir?</b>
               <br />
-              <p className="extra-text">
+              <p className="large-text">
                 {projectIntroductionData.content5}
               </p>
               <br />
-              <ul className="smp-list mt-30">
+              {/*<ul className="smp-list mt-30">
                 {projectIntroductionData.spmList.map((item) => (
                   <li key={item.id}>{item.name}</li>
                 ))}
-              </ul>
+              </ul>*/}
             </div>
           </div>
         </div>
