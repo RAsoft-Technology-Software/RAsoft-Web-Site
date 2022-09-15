@@ -1,0 +1,48 @@
+{
+  "..\\..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
+    "id": 99651,
+    "files": [
+      "static/chunks/9651.910fcf5c96d3ee7b.js"
+    ]
+  },
+  "blog\\[blogDetails].jsx -> ../../components/Blog-details/01-dijital-pazarlama": {
+    "id": 54916,
+    "files": [
+      "static/chunks/2780-e6c0641327727d9b.js",
+      "static/chunks/2744-471c0adc89e554fd.js",
+      "static/chunks/4916.bed2a9ab7b64e7d8.js"
+    ]
+  },
+  "blog\\[blogDetails].jsx -> ../../components/Blog-details/02-google-adwords": {
+    "id": 50863,
+    "files": [
+      "static/chunks/2780-e6c0641327727d9b.js",
+      "static/chunks/2744-471c0adc89e554fd.js",
+      "static/chunks/863.657ca438a706e0e9.js"
+    ]
+  },
+  "blog\\[blogDetails].jsx -> ../../components/Blog-details/03-e-ticarette-seo": {
+    "id": 9388,
+    "files": [
+      "static/chunks/2780-e6c0641327727d9b.js",
+      "static/chunks/2744-471c0adc89e554fd.js",
+      "static/chunks/9388.d3a3562022af5cc0.js"
+    ]
+  },
+  "blog\\[blogDetails].jsx -> ../../components/Blog-details/04-responsive-web": {
+    "id": 56780,
+    "files": [
+      "static/chunks/2780-e6c0641327727d9b.js",
+      "static/chunks/2744-471c0adc89e554fd.js",
+      "static/chunks/6780.9440b23071f00ecc.js"
+    ]
+  },
+  "blog\\[blogDetails].jsx -> ../../components/Blog-details/05-sosyal-medya-yonetimi": {
+    "id": 32846,
+    "files": [
+      "static/chunks/2780-e6c0641327727d9b.js",
+      "static/chunks/2744-471c0adc89e554fd.js",
+      "static/chunks/2846.909f5df3bf8000fc.js"
+    ]
+  }
+}

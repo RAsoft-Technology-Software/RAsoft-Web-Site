@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/Link";
+import NextLink  from "next/link";
 
 const NextProject = () => {
   return (
@@ -18,10 +18,10 @@ const NextProject = () => {
                 <div className="caption ontop valign">
                   <div className="o-hidden full-width">
                     <h1>
-                      <Link href="/it-hizmet-cozumleri">
+                      <NextLink  href="/it-hizmet-cozumleri">
                       <a>
                         <div className="stroke">IT Hizmet & Çözümleri &gt;</div>
-                      </a></Link>
+                      </a></NextLink >
                     </h1>
                   </div>
                 </div>
