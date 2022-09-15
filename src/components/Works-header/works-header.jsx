@@ -15,8 +15,8 @@ const WorksHeader = ({ sliderRef }) => {
           <div className="col-lg-7 col-md-9 static">
             <div className="capt mt-50">
               <div className="parlx text-center">
-                <h1 className="color-font">amazing works</h1>
-                <p>
+                <h1 className="color-font">PROJELERİMİZ {/*amazing works*/}</h1>
+                <p /*TODO alt başlık*/>
                   Creativity involves breaking out of expected &amp; repeatable
                   patterns in order to look at things in different way than ever
                   before.
@@ -24,7 +24,7 @@ const WorksHeader = ({ sliderRef }) => {
               </div>
 
               <div className="bactxt custom-font valign">
-                <span className="full-width">Works</span>
+                <span className="full-width">RAsoft{/*Works*/}</span>
               </div>
             </div>
           </div>

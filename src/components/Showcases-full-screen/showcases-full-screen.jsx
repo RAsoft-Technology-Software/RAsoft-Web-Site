@@ -107,7 +107,7 @@ const ShowcasesFullScreen = () => {
                           </h1>
                           <div className="discover">
                             <Link
-                              href={`/works-dark`}
+                              href={`/works2-dark`}
                             >
                               <a>
                                 <span>

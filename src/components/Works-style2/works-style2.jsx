@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import initIsotope from "../../common/initIsotope";
+import ProjemizData from "../../data/projelerimiz.json";
 
 const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
   React.useEffect(() => {
@@ -9,6 +10,8 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
       initIsotope();
     }, 1000);
   }, []);
+
+
   return (
     <section
       className={`${
@@ -44,45 +47,46 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
               } col-12`}
             >
               <div className="filter">
-                <span data-filter="*" className="active">
-                  All
-                </span>
-                <span data-filter=".brand">Branding</span>
-                <span data-filter=".web">Mobile App</span>
-                <span data-filter=".graphic">Creative</span>
+                <span data-filter="*" className="active">Tümü</span>
+                <span data-filter=".web">Web Geliştirme</span>
+                <span data-filter=".powerbi">Power BI</span>
               </div>
             </div>
           )}
 
           <div className="gallery full-width">
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items graphic wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/1.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>Creativity Demand</h6>
-                <span>
-                  <Link href="/works3/works3-dark">Design</Link>,
-                  <Link href="/works3/works3-dark">WordPress</Link>
-                </span>
-              </div>
-            </div>
 
-            <div
+            {ProjemizData.map((proje, index) => (
+                <div
+                  className={`${
+                    grid === 3
+                      ? "col-lg-4 col-md-6"
+                      : grid === 2
+                      ? "col-md-6"
+                      : "col-12"
+                  } items ${proje.tags.map((tag, index2) => (tag+" "))} wow fadeInUp`} key={index}
+                  data-wow-delay=".4s"
+                >
+                  <div className="item-img">
+                    <Link href={proje.url}>
+                      <a className="imago wow">
+                        <img src={proje.image} alt="image" />
+                        <div className="item-img-overlay"></div>
+                      </a>
+                    </Link>
+                  </div>
+                  <div className="cont">
+                    <h6>{proje.title}</h6>
+                    <span>
+                      {proje.tags.map((tag, index2) => (
+                          <Link href="/works3/works3-dark" key={index2}>{tag}</Link>
+                      ))}
+                    </span>
+                  </div>
+                </div>
+            ))}
+
+            {/*<div
               className={`${
                 grid === 3
                   ? "col-lg-4 col-md-6"
@@ -215,7 +219,8 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                   <Link href="/works3/works3-dark">WordPress</Link>
                 </span>
               </div>
-            </div>
+            </div>*/}
+
           </div>
         </div>
       </div>
