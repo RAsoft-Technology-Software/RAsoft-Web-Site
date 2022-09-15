@@ -5,9 +5,9 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/Ngqi3uPuNbLXuumT0pb81/_buildManifest.js",
-    "static/Ngqi3uPuNbLXuumT0pb81/_ssgManifest.js",
-    "static/Ngqi3uPuNbLXuumT0pb81/_middlewareManifest.js"
+    "static/4JKdUKOel3Q03JaaY3M57/_buildManifest.js",
+    "static/4JKdUKOel3Q03JaaY3M57/_ssgManifest.js",
+    "static/4JKdUKOel3Q03JaaY3M57/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
@@ -152,18 +152,18 @@
       "static/chunks/framework-568b840ecff66744.js",
       "static/chunks/main-b50cdad29620ce91.js",
       "static/chunks/7349-f31a18f904d01c15.js",
-      "static/chunks/7950-656673f4bf3e10fe.js",
+      "static/chunks/1846-fd0650c580cfb1c5.js",
       "static/css/9df7c835b5ac179f.css",
-      "static/chunks/pages/dijital-pazarlama-aefb9046deef7984.js"
+      "static/chunks/pages/dijital-pazarlama-de4d9879d5400163.js"
     ],
     "/e-ticaret-entegrasyon-sistemleri": [
       "static/chunks/webpack-5846d5d9918d0ffb.js",
       "static/chunks/framework-568b840ecff66744.js",
       "static/chunks/main-b50cdad29620ce91.js",
       "static/chunks/7349-f31a18f904d01c15.js",
-      "static/chunks/7950-656673f4bf3e10fe.js",
+      "static/chunks/1846-fd0650c580cfb1c5.js",
       "static/css/9df7c835b5ac179f.css",
-      "static/chunks/pages/e-ticaret-entegrasyon-sistemleri-42b62634d29ea295.js"
+      "static/chunks/pages/e-ticaret-entegrasyon-sistemleri-8879178940f76b3e.js"
     ],
     "/hakkimizda": [
       "static/chunks/webpack-5846d5d9918d0ffb.js",
@@ -408,27 +408,27 @@
       "static/chunks/framework-568b840ecff66744.js",
       "static/chunks/main-b50cdad29620ce91.js",
       "static/chunks/7349-f31a18f904d01c15.js",
-      "static/chunks/7950-656673f4bf3e10fe.js",
+      "static/chunks/1846-fd0650c580cfb1c5.js",
       "static/css/9df7c835b5ac179f.css",
-      "static/chunks/pages/it-hizmet-cozumleri-e2629d1da7a698db.js"
+      "static/chunks/pages/it-hizmet-cozumleri-673ad05833e8c634.js"
     ],
     "/microsoft-cozumleri": [
       "static/chunks/webpack-5846d5d9918d0ffb.js",
       "static/chunks/framework-568b840ecff66744.js",
       "static/chunks/main-b50cdad29620ce91.js",
       "static/chunks/7349-f31a18f904d01c15.js",
-      "static/chunks/7950-656673f4bf3e10fe.js",
+      "static/chunks/1846-fd0650c580cfb1c5.js",
       "static/css/9df7c835b5ac179f.css",
-      "static/chunks/pages/microsoft-cozumleri-2c5ee616d2905c03.js"
+      "static/chunks/pages/microsoft-cozumleri-edb9e2ebfa85a31a.js"
     ],
     "/mobil-uygulama-gelistirme": [
       "static/chunks/webpack-5846d5d9918d0ffb.js",
       "static/chunks/framework-568b840ecff66744.js",
       "static/chunks/main-b50cdad29620ce91.js",
       "static/chunks/7349-f31a18f904d01c15.js",
-      "static/chunks/7950-656673f4bf3e10fe.js",
+      "static/chunks/1846-fd0650c580cfb1c5.js",
       "static/css/9df7c835b5ac179f.css",
-      "static/chunks/pages/mobil-uygulama-gelistirme-2ea36a667ac29cb9.js"
+      "static/chunks/pages/mobil-uygulama-gelistirme-9581ea54c5503862.js"
     ],
     "/mobile-app/mobile-app-dark": [
       "static/chunks/webpack-5846d5d9918d0ffb.js",
@@ -517,36 +517,36 @@
       "static/chunks/framework-568b840ecff66744.js",
       "static/chunks/main-b50cdad29620ce91.js",
       "static/chunks/7349-f31a18f904d01c15.js",
-      "static/chunks/7950-656673f4bf3e10fe.js",
+      "static/chunks/1846-fd0650c580cfb1c5.js",
       "static/css/9df7c835b5ac179f.css",
-      "static/chunks/pages/powerbi-powerapps-0c31b446f448089e.js"
+      "static/chunks/pages/powerbi-powerapps-fb797ff0aee1d4d7.js"
     ],
     "/project-details2-dark": [
       "static/chunks/webpack-5846d5d9918d0ffb.js",
       "static/chunks/framework-568b840ecff66744.js",
       "static/chunks/main-b50cdad29620ce91.js",
       "static/chunks/7349-f31a18f904d01c15.js",
-      "static/chunks/7950-656673f4bf3e10fe.js",
+      "static/chunks/1846-fd0650c580cfb1c5.js",
       "static/css/9df7c835b5ac179f.css",
-      "static/chunks/pages/project-details2-dark-2ea59051afa89237.js"
+      "static/chunks/pages/project-details2-dark-69fde0ce3fa2db67.js"
     ],
     "/project-details2/project-details2-dark": [
       "static/chunks/webpack-5846d5d9918d0ffb.js",
       "static/chunks/framework-568b840ecff66744.js",
       "static/chunks/main-b50cdad29620ce91.js",
       "static/chunks/7349-f31a18f904d01c15.js",
-      "static/chunks/7950-656673f4bf3e10fe.js",
+      "static/chunks/1846-fd0650c580cfb1c5.js",
       "static/css/9df7c835b5ac179f.css",
-      "static/chunks/pages/project-details2/project-details2-dark-8b9ee0680353411f.js"
+      "static/chunks/pages/project-details2/project-details2-dark-de3310a79ea60497.js"
     ],
     "/project-details2/project-details2-light": [
       "static/chunks/webpack-5846d5d9918d0ffb.js",
       "static/chunks/framework-568b840ecff66744.js",
       "static/chunks/main-b50cdad29620ce91.js",
       "static/chunks/7349-f31a18f904d01c15.js",
-      "static/chunks/7950-656673f4bf3e10fe.js",
+      "static/chunks/1846-fd0650c580cfb1c5.js",
       "static/css/9df7c835b5ac179f.css",
-      "static/chunks/pages/project-details2/project-details2-light-eaa1e60c712c6135.js"
+      "static/chunks/pages/project-details2/project-details2-light-879a9da716167ea8.js"
     ],
     "/projelerimiz": [
       "static/chunks/webpack-5846d5d9918d0ffb.js",
@@ -616,9 +616,9 @@
       "static/chunks/framework-568b840ecff66744.js",
       "static/chunks/main-b50cdad29620ce91.js",
       "static/chunks/7349-f31a18f904d01c15.js",
-      "static/chunks/7950-656673f4bf3e10fe.js",
+      "static/chunks/1846-fd0650c580cfb1c5.js",
       "static/css/9df7c835b5ac179f.css",
-      "static/chunks/pages/web-uygulamalari-gelistirme-edc3a9b0aa7a0a0a.js"
+      "static/chunks/pages/web-uygulamalari-gelistirme-5b58163a894bc789.js"
     ],
     "/works-dark": [
       "static/chunks/webpack-5846d5d9918d0ffb.js",
