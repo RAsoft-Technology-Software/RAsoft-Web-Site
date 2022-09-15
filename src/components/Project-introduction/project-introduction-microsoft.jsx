@@ -1,0 +1,47 @@
+import React from "react";
+
+const ProjectIntroduction = ({ projectIntroductionData }) => {
+  return (
+    <section className="intro-section section-padding">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-3 col-md-4">
+            <div className="htit">
+              <h4>
+                <span>01 </span> Microsoft Çözümleri
+              </h4>
+            </div>
+          </div>
+          <div className="col-lg-8 offset-lg-1 col-md-8">
+            <div className="text js-scroll__content">
+              <p className="extra-text">
+                {projectIntroductionData.content}
+              </p>
+              <br />
+              <b className="extra-text">
+                {projectIntroductionData.title2}
+              </b>
+              <p className="extra-text">
+                {projectIntroductionData.content2}
+              </p>
+              <br />
+              <b className="extra-text">
+                {projectIntroductionData.title3}
+              </b>
+              <p className="extra-text">
+                {projectIntroductionData.content3}
+              </p>
+              <ul className="smp-list mt-30">
+                {projectIntroductionData.spmList.map((item) => (
+                  <li key={item.id}>{item.name}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ProjectIntroduction;
