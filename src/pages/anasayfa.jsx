@@ -11,7 +11,8 @@ import Intro4 from "../components/Intro4/intro4";
 import AboutUs3 from "../components/About-us3/about-us3";
 import Services3 from "../components/Services3/services3";
 import MinimalArea2 from "../components/Minimal-Area2/minimal-area2";
-
+import {WhatsAppWidget} from "react-whatsapp-widget";
+import 'react-whatsapp-widget/dist/index.css';
 const Homepage5 = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
@@ -45,7 +46,9 @@ const Homepage5 = () => {
       <Blogs4 />
       <CallToAction />
       <Footer /> 
+      <WhatsAppWidget phoneNumber="111333123"/>
     </DarkTheme>
+  
   );
 };
 

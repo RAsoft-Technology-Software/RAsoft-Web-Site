@@ -12,7 +12,7 @@ const AboutIntro = () => {
               <h4>{AboutInfo1Data.title}</h4>
             </div>
           </div>
-          <div className="col-lg-8 offset-lg-1 col-md-8">
+          <div className="col-lg-8 offset-lg-1 col-md-8" >
             <div className="text">
               <Split>
                 <p
