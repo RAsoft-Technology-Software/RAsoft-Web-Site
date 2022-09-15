@@ -16,17 +16,19 @@ const NavbarFullMenu = ({ theme }) => {
       >
         <div className="container-fluid">
           <div className="logo">
-            <a href="/">
-              {theme ? (
-                theme === "light" ? (
-                  <img src={appData.darkLogo} alt="logo" />
+            <Link href="/">
+              <a>
+                {theme ? (
+                  theme === "light" ? (
+                    <img src={appData.darkLogo} alt="logo" />
+                  ) : (
+                    <img src={appData.lightLogo} alt="logo" />
+                  )
                 ) : (
                   <img src={appData.lightLogo} alt="logo" />
-                )
-              ) : (
-                <img src={appData.lightLogo} alt="logo" />
-              )}
-            </a>
+                )}
+              </a>
+            </Link>
           </div>
           <div className="menu-icon">
             <span className="icon">
@@ -168,8 +170,10 @@ const NavbarFullMenu = ({ theme }) => {
                 </div>
                 <div className="item">
                   <h6>Adres :</h6>
-                  <a href="https://goo.gl/maps/ifFkUfUokGgViwqQ9" target="_blank">
-                    Tatlısu Mah. Şenol Güneş Bul. Şerifali No:2/A Ümraniye - İSTANBUL</a>
+                  <Link href="https://goo.gl/maps/ifFkUfUokGgViwqQ9">
+                    <a target="_blank">
+                      Tatlısu Mah. Şenol Güneş Bul. Şerifali No:2/A Ümraniye - İSTANBUL</a>
+                  </Link>
                 </div>
                 <div className="item">
                   <h6>E-Posta :</h6>
