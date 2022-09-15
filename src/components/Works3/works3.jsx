@@ -29,7 +29,7 @@ const Works3 = () => {
                   Proje
                 </h6>
                 <h3 className="wow color-font">
-                  Dijital Dönüşümünde <br /> RAsoft'u Tercih Edenler.
+                  Dijital Dönüşümünde <br /> RAsoft&apos;u Tercih Edenler.
                 </h3>
               </div>
             </div>

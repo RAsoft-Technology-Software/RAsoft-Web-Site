@@ -20,7 +20,7 @@ const NextProject = () => {
                     <h1>
                       <Link href="/it-hizmet-cozumleri">
                       <a>
-                        <div className="stroke">IT Hizmet & Çözümleri ></div>
+                        <div className="stroke">IT Hizmet & Çözümleri &gt;</div>
                       </a></Link>
                     </h1>
                   </div>
