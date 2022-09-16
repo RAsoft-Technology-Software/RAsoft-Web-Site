@@ -9,8 +9,6 @@ const ScrollToTop = () => {
   }, []);
   return (
     <div className="progress-wrap cursor-pointer">
-      {/*<WhatsAppWidget phoneNumber="905413566434"/>*/}
-
       <svg
         className="progress-circle svg-content"
         width="100%"

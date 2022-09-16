@@ -7,7 +7,6 @@ import LoadingScreen from "../components/Loading-Screen";
 import "../styles/main.scss";
 
 import { WhatsAppWidget } from "react-whatsapp-widget";
-import 'react-whatsapp-widget/dist/index.css';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -20,7 +19,12 @@ function MyApp({ Component, pageProps }) {
       <LoadingScreen />
       <Component {...pageProps} />
       
-      <WhatsAppWidget companyName="RAsoft" phoneNumber="905413566434"/>
+      <WhatsAppWidget
+        companyName="RAsoft" 
+        replyTimeText="Anlık iletişim"
+        message="Merhaba👋🏼!                 Nasıl yardımcı olabiliriz?" 
+        sendButtonText="Gönder"
+        phoneNumber="905413566434"/>
       
       <ScrollToTop />
       <Script id="wow" src="/js/wow.min.js"></Script>
