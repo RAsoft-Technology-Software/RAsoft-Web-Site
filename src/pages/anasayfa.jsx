@@ -46,7 +46,7 @@ const Homepage5 = () => {
       <Blogs4 />
       <CallToAction />
       <Footer /> 
-      <WhatsAppWidget phoneNumber="111333123"/>
+      {/*<WhatsAppWidget phoneNumber="905413566434"/>*/}
     </DarkTheme>
   
   );

@@ -1,5 +1,7 @@
 import React from "react";
 import scrollToTop from "../../common/scrollToTop";
+import { WhatsAppWidget } from "react-whatsapp-widget";
+import 'react-whatsapp-widget/dist/index.css';
 
 const ScrollToTop = () => {
   React.useEffect(() => {
@@ -7,6 +9,8 @@ const ScrollToTop = () => {
   }, []);
   return (
     <div className="progress-wrap cursor-pointer">
+      {/*<WhatsAppWidget phoneNumber="905413566434"/>*/}
+
       <svg
         className="progress-circle svg-content"
         width="100%"

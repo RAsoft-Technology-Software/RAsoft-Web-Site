@@ -6,6 +6,9 @@ import ScrollToTop from "../components/scrollToTop";
 import LoadingScreen from "../components/Loading-Screen";
 import "../styles/main.scss";
 
+import { WhatsAppWidget } from "react-whatsapp-widget";
+import 'react-whatsapp-widget/dist/index.css';
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -16,6 +19,9 @@ function MyApp({ Component, pageProps }) {
       <Cursor />
       <LoadingScreen />
       <Component {...pageProps} />
+      
+      <WhatsAppWidget companyName="RAsoft" phoneNumber="905413566434"/>
+      
       <ScrollToTop />
       <Script id="wow" src="/js/wow.min.js"></Script>
       <Script
