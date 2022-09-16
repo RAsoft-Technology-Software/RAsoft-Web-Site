@@ -24,6 +24,7 @@ function MyApp({ Component, pageProps }) {
         replyTimeText="Anlık iletişim"
         message="Merhaba👋🏼!                 Nasıl yardımcı olabiliriz?" 
         sendButtonText="Gönder"
+        inputPlaceHolder="Mesaj yazınız.."
         phoneNumber="905413566434"/>
       
       <ScrollToTop />
