@@ -1,6 +1,8 @@
 import React from "react";
 import ContactFromDate from "../../data/sections/form-info.json";
 import { Formik, Form, Field } from "formik";
+//import { SMTPClient } from 'emailjs';
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
   const messageRef = React.useRef(null);
@@ -13,6 +15,46 @@ const ContactForm = () => {
     }
     return error;
   }
+
+  const SERVICE_ID = "service_p2qby3m"
+  const TEMPLATE_ID = "template_6myw6fo"
+  const PUBLIC_KEY = "Dg9Ke35rdU-swI1yg"
+  const USER_TOKEN = "tnfIHfiEKWkNQOBhkmZQu"
+
+  /*const client = new SMTPClient({
+    user: 'user',
+    password: 'password',
+    host: 'smtp.your-email.com',
+    ssl: true,
+  });*/
+
+  
+  const mesajGonder = () => {
+    /*client.send(
+      {
+        text: 'i hope this works',
+        from: 'derleme.19@gmail.com',
+        to: 'ncpyolcu@gmail.com',
+        cc: '',
+        subject: 'testing emailjs',
+      },
+      (err, message) => {
+        console.log(err || message);
+      }
+    );*/
+    const templateParams = {
+      name: 'James',
+      notes: 'Check this out!'
+    };
+
+    emailjs.send(SERVICE_ID,TEMPLATE_ID, templateParams, PUBLIC_KEY)
+      .then(function(response) {
+        console.log('SUCCESS!', response?.status, response?.text);
+      }, function(err) {
+        console.log('FAILED...', err);
+      });
+  }
+
   const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
   return (
     <section className="contact section-padding">
@@ -82,7 +124,7 @@ const ContactForm = () => {
                       />
                     </div>
 
-                    <button type="submit" className="butn bord">
+                    <button type="submit" className="butn bord" onClick={mesajGonder}>
                       <span>Mesajı Gönderin</span>
                     </button>
                   </Form>
