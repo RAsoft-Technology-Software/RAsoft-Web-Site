@@ -9,9 +9,9 @@ const ContactForm = () => {
   function validateEmail(value) {
     let error;
     if (!value) {
-      error = "Required";
+      error = "Zorunlu";
     } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value)) {
-      error = "Invalid email address";
+      error = "Geçersiz e-posta adresi.";
     }
     return error;
   }
@@ -75,7 +75,7 @@ const ContactForm = () => {
                   // show message
 
                   messageRef.current.innerText =
-                    "Mesajınız başarıyla gönderildi. Yakında sizinle iletişime geçeceğim.";
+                    "Mesajınız başarıyla gönderildi. En kısa sürede sizinle iletişime geçeceğiz.";
                   // Reset the values 
                   values.name = "";
                   values.email = "";
@@ -124,8 +124,13 @@ const ContactForm = () => {
                       />
                     </div>
 
+<<<<<<< HEAD
                     <button type="submit" className="butn bord" onClick={mesajGonder}>
                       <span>Mesajı Gönderin</span>
+=======
+                    <button type="submit" className="butn bord">
+                      <span>Gönder</span>
+>>>>>>> 840ee304c36b356ceea6da3a8efc8540e322387b
                     </button>
                   </Form>
                 )}
@@ -145,7 +150,7 @@ const ContactForm = () => {
                 <h5>{ContactFromDate.phone}</h5>
               </div>
               <h3 className="wow" data-splitting>
-                Adres.
+                Adres
               </h3>
               <div className="item">
                 <h6>
@@ -161,7 +166,7 @@ const ContactForm = () => {
                 <a href="https://www.facebook.com/rasoft.sosyal/" className="icon">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://www.instagram.com/" className="icon">
+                <a href="https://www.instagram.com/rasoftcomtr" className="icon">
                   <i className="fab fa-instagram"></i>
                 </a>
                 <a href="https://www.linkedin.com/company/rasoft-sosyal/" className="icon">

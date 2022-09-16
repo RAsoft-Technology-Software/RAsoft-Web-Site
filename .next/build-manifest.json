@@ -25,10 +25,22 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+<<<<<<< HEAD
     "/iletisim": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/iletisim.js"
+=======
+    "/hakkimizda": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/hakkimizda.js"
+    ],
+    "/works2-dark": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/works2-dark.js"
+>>>>>>> 840ee304c36b356ceea6da3a8efc8540e322387b
     ]
   },
   "ampFirstPages": []

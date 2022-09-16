@@ -34,7 +34,7 @@ const VideoWithTestimonials = () => {
                 <div className="vid-icon">
                   {typeof window !== "undefined" && (
                     <ModalVideo
-                      channel="vimeo"
+                      channel="youtube"
                       isOpen={isOpen}
                       videoId="127203262"
                       onClose={() => setOpen(false)}
@@ -73,9 +73,7 @@ const VideoWithTestimonials = () => {
                 >
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                    Kurumsallaşma aşamasından başladığımız bu süreçte, yaptıkları reklamlar ile oldukça yüksek bir marka bilinirliği yakaladık.
                     </p>
                     <div className="info">
                       <div className="img">
@@ -85,9 +83,9 @@ const VideoWithTestimonials = () => {
                       </div>
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name ">Alex Regelman</h6>
+                          <h6 className="author-name ">İbrahim Bey</h6>
                           <span className="author-details">
-                            Co-founder, Colabrio
+                            Founder, Ahsap Global
                           </span>
                         </div>
                       </div>
@@ -96,9 +94,7 @@ const VideoWithTestimonials = () => {
                   
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                    Kurumsallaşma aşamasından başladığımız bu süreçte, yaptıkları reklamlar ile oldukça yüksek bir marka bilinirliği yakaladık.
                     </p>
                     <div className="info">
                       <div className="img">
@@ -108,9 +104,9 @@ const VideoWithTestimonials = () => {
                       </div>
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name ">Alex Regelman</h6>
+                          <h6 className="author-name ">İbrahim Bey</h6>
                           <span className="author-details">
-                            Co-founder, Colabrio
+                            Founder, Ahsap Global
                           </span>
                         </div>
                       </div>
@@ -119,9 +115,7 @@ const VideoWithTestimonials = () => {
 
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                    Kurumsallaşma aşamasından başladığımız bu süreçte, yaptıkları reklamlar ile oldukça yüksek bir marka bilinirliği yakaladık.
                     </p>
                     <div className="info">
                       <div className="img">
@@ -131,9 +125,9 @@ const VideoWithTestimonials = () => {
                       </div>
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name ">Alex Regelman</h6>
+                          <h6 className="author-name ">İbrahim Bey</h6>
                           <span className="author-details">
-                            Co-founder, Colabrio
+                            Founder, Ahsap Global
                           </span>
                         </div>
                       </div>
