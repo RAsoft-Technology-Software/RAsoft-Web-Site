@@ -1,10 +1,10 @@
 {
   "id": 1,
-  "title": "Bize Ulaşın.",
+  "title": "E-posta",
   "email": "bilgi@rasoft.com.tr",
   "phone": "+90 541 356 64 34",
   "location": {
-    "first": "Tatlısu Mah. Şenol Güneş Bul. Şerifali No:2/A,",
+    "first": "Tatlısu Mah. Şenol Güneş Blv. Şerifali No:2/A, Kat:3",
     "second": "Ümraniye, İSTANBUL"
   }
 }

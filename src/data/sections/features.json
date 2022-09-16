@@ -1,38 +1,39 @@
 [
     {
         "id": 1,
-        "icon": "fa-sharp fa-solid fa-pen",
+        "icon": "bi bi-c-circle",
         "title": "Kurumsal Kimlik Tasarımı",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "content": "Kurumsal kimlik tasarımındaki temel amaç, markanızın gelişmesini sağlayacak çalışmalar ile markanızı sağlam temellere dayandırmaktır."
     },
     {
         "id": 2,
-        "icon": "fa fa-car",
-        "title": "Web & Mobil Uygulama Geliştirme",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
+        "icon": "bi bi-window",
+        "title": "Web Uygulamaları Geliştirme",
+        "content": "Hazır sistemlerin ihtiyaçlarınızı karşılayamadığı durumlarda  tamamen işletmenize özel yazılım geliştirerek dijital dönüşümünüzü hızlandırıyoruz."
     },
     {
         "id": 3,
-        "icon": "fas fa-long-arrow-alt-right",
-        "title": "Web Tasarım",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "icon": "bi bi-phone",
+        "title": "Mobil Uygulama Geliştirme",
+        "content": "Size özel geliştirilen mobil uygulamalar ile ürün ve hizmetlere 7/24 erişebilme özgürlüğü sağlıyor, otomasyon serüveninizi tamamlıyoruz."
     },
     {
         "id": 4,
-        "icon": "pe-7s-display1",
-        "title": "Sosyal Medya Yönetimi",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
+        "icon": "bi bi-shop",
+        "title": "E-Ticaret Entegrasyon Sistemleri",
+        "content": "Sizin için konfigüre ettiğimiz entegrasyon sistemleriyle e-ticaret sitenizi ve pazaryeri operasyonlarınızı tek panelden yönetebilirsiniz."
     },
     {
         "id": 5,
-        "icon": "pe-7s-diskette",
-        "title": "Google Reklam Yönetimi",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "icon": "bi bi-badge-ad",
+        "title": "Google & Sosyal Medya Reklam Yönetimi",
+        "content": "Web site yada sosyal medya hesabınızın daha çok kullanıcıya ulaşabilmesi için profesyonel yol haritası sunuyor ve bunu birlikte uyguluyoruz."
     },
-    {
+     {
         "id": 6,
-        "icon": "pe-7s-diskette",
-        "title": "Microsoft Altyapı Çözümleri",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "icon": "bi bi-activity",
+        "title": "IT Hizmet & Çözümleri",
+        "content": "Altyapılarınızı güçlendiriyor, doğru şekilde yönetmenizi sağlıyor, güvenlik açıklarını kapatıyor ve danışmanlık hizmetleri veriyoruz."
     }
+    
 ]

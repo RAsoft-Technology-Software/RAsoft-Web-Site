@@ -102,23 +102,15 @@ const NavbarFullMenu = ({ theme }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href={`/microsoft-cozumleri`}>
+                            <Link href={`/it-hizmet-cozumleri`}>
                               <a className="sub-link">
-                                <span className="nm">05.</span>Microsoft Çözümleri
+                                <span className="nm">05.</span>IT Hizmet ve Çözümleri
                               </a>
                             </Link>
                           </div>
                         </li>
 
-                        <li>
-                          <div className="o-hidden">
-                            <Link href={`/powerbi-powerapps`}>
-                              <a className="sub-link">
-                                <span className="nm">06.</span>Power BI & PowerApps
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
+                        
                     
                       </ul>
                     </div>

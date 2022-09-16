@@ -17,9 +17,7 @@ const WorksHeader = ({ sliderRef }) => {
               <div className="parlx text-center">
                 <h1 className="color-font">PROJELERİMİZ {/*amazing works*/}</h1>
                 <p /*TODO alt başlık*/>
-                  Creativity involves breaking out of expected &amp; repeatable
-                  patterns in order to look at things in different way than ever
-                  before.
+                Bizi biz yapan ilkelerimizle müşterilerimiz için hazırladığımız projelerde titizlik, kalite ve özgünlük ilkelerinden asla taviz vermiyoruz.
                 </p>
               </div>
 

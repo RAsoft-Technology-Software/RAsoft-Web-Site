@@ -3,7 +3,7 @@ import React from "react";
 import ClientsData from "../../data/sections/clients.json";
 import Split from "../Split";
 
-const Clients = ({theme}) => {
+const Clients = ({ theme }) => {
   var first = ClientsData.slice(0, ClientsData.length / 2);
   var second = ClientsData.slice(4, ClientsData.length);
   return (
@@ -13,11 +13,16 @@ const Clients = ({theme}) => {
           <div className="col-lg-4 valign md-mb50">
             <div className="sec-head mb-0">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Dijital Dönüşümünde 
+                Dijital Dönüşümünde
               </h6>
-              <h3 className="wow mb-20 color-font">RAsoft`&apos;`u Tercih Edenler</h3>
+              <h3 className="wow mb-20 color-font">
+                RAsoft&apos;u Tercih Edenler
+              </h3>
               <p>
-                Uygulama alanımız oldukça geniştir: tasarım, grafik, markalaşma, geliştirme.{/*Our area of practice is quite wide: design, graphics, branding,
+                Bizi biz yapan ilkelerimizle müşterilerimiz için hazırladığımız
+                projelerde titizlik, kalite ve özgünlük ilkelerinden asla taviz
+                vermiyoruz.
+                {/*Our area of practice is quite wide: design, graphics, branding,
                 development.*/}
               </p>
             </div>
